@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Meals</string>
+    <string name="app_accompagnement_title">Accompagnements</string>
+
+    <string name="connexion_available">Aucune connexion internet. Verifier votre connexion puis reessayer</string>
+    <string name="yes_action">Oui</string>
+    <string name="no_action">Non</string>
+    <string name="other_menu">Autres menus du jour</string>
+    <string name="no_other_menu">Aucun autres menus pour ce jour</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="home_icon">Accueil</string>
+    <string name="restaurant_icon">Ma commande</string>
+    <string name="search_icon">Rechercher</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="error_factory_msg">Aucun fournisseur n\'a été trouvé.   Pour proposer vos repas via cette application mobile rendez-vous sur</string>
+    <string name="choose_menu_quantity">Définir les quantités des menus</string>
+    <string name="accompagnements">ACCOMPAGNEMENTS</string>
+    <string name="no_add_on">Aucun autre menu d\'accompagnement pour cette compagnie</string>
+    <string name="order_now">Lancer la commande maintenant</string>
+    <string name="order_resume">Bilan des menus choisis</string>
+    <string name="menu_bilan">Menu Bilan</string>
+    <string name="user_delivery_text">Je veux me faire livrer</string>
+    <string name="company_delivery_price">Prix Livraison:</string>
+    <string name="user_name">Votre nom et prénom</string>
+    <string name="user_phone_number">Votre contact</string>
+    <string name="user_location_place">Indiquer votre lieu de localisation</string>
+    <string name="missing_fields">Un ou plusieurs champs sont manquants</string>
+    <string name="no_internet_connecion">Verifiez votre connexion internet et réessayez</string>
+    <string name="order_success_sent">Commande Envoyée</string>
+    <string name="order_successfully_sent">Votre commande a été envoyée avec succès</string>
+    <string name="order_failure_sent">Erreur</string>
+    <string name="order_faillure_sent">Nos serveurs sont indisponible en ce moment. Veuillez réessayer dans quelques minutes</string>
+    <string name="deliveryNotAvailableText">Nous vous expliquerons comment passer votre commande dans l\'étape suivante</string>
+    <string name="error_occured">Une erreur est survenue. Vérifiez votre connexion internet et réessayez plus tard.</string>
+    <string name="order_of">Commande du</string>
+    <string name="order_toolbar_title">Ma Commande</string>
+    <string name="explanation_text1">Veuillez spécifier votre commande à: </string>
+    <string name="explanation_text2"> en contactant le: </string>
+    <string name="explanation_text3"> . </string>
+    <string name="explanation_text4"> est situé à: </string>
+    <string name="search_toolbar_title">Rechercher</string>
+    <string name="no_order">Aucune commande pour l\'instant.</string>
+    <string name="start_my_order">Lancer ma commande</string>
+    <string name="id_confirm_text">Veuillez présenter cet écran lors de la réception de votre commande pour confirmer votre identité</string>
+    <string name="search_hint">Rechercher un fournisseur</string>
+    <string name="nothing_to_show">Rien à afficher</string>
+</resources>

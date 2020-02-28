@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Meals</string>
+    <string name="app_accompagnement_title">Additional Meals</string>
+    <string name="connexion_available">Internet connetion not available. Check it and retry.</string>
+    <string name="yes_action">Yes</string>
+    <string name="no_action">No</string>
+    <string name="other_menu">Other today\'s menu</string>
+    <string name="no_other_menu">No others menus</string>
+    <string name="home_icon">Home</string>
+    <string name="restaurant_icon">My order</string>
+    <string name="search_icon">Search</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="error_factory_msg">No data has been found actualy. If you want to prorpose your meals go to</string>
+    <string name="choose_menu_quantity">Choose menus quantities</string>
+    <string name="accompagnements">ADDITIONS MEALS</string>
+    <string name="no_add_on">No additionnal meals for this company</string>
+    <string name="order_now">Order now</string>
+    <string name="order_resume">Choosen menus resume</string>
+    <string name="menu_bilan">Resume Menu</string>
+    <string name="user_delivery_text">I want to be deliver</string>
+    <string name="company_delivery_price">Delivery Price:</string>
+    <string name="user_name">Your first and last name</string>
+    <string name="user_phone_number">Your contact</string>
+    <string name="user_location_place">Describe where we can found you</string>
+    <string name="missing_fields">One or many field are missing</string>
+    <string name="no_internet_connecion">Please Check your network connection and try again</string>
+    <string name="order_success_sent">Order sent</string>
+    <string name="order_successfully_sent">Your order has been sent successfully</string>
+    <string name="order_failure_sent">Error</string>
+    <string name="order_faillure_sent">Our server are not available for this moment. Please try again i few minute</string>
+    <string name="deliveryNotAvailableText">We will tell you how to pass your order in the next step</string>
+    <string name="error_occured">An error has occured. Please, check your network connexion and try again.</string>
+    <string name="order_of">Order Date:</string>
+    <string name="order_toolbar_title">My Order</string>
+    <string name="explanation_text1">Please specify your order: </string>
+    <string name="explanation_text2">by contacting: </string>
+    <string name="explanation_text3">. </string>
+    <string name="explanation_text4"> is locate on: </string>
+    <string name="search_toolbar_title">Search</string>
+    <string name="no_order">No order present actually.</string>
+    <string name="start_my_order">Start my order</string>
+    <string name="id_confirm_text">Please, show this screen when you\'re getting your order to confirm your identity.</string>
+    <string name="search_hint">Search meals supplier</string>
+    <string name="nothing_to_show">Nothing to show</string>
+</resources>
