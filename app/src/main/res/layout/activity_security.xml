@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.security.SecurityActivity"
+    android:id="@+id/container"
+    >
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:id="@+id/toolbar"
+        android:background="@color/colorPrimary"/>
+
+    <LinearLayout
+        android:id="@+id/rootContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="68"
+            android:id="@+id/securityPassImg">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/security_pass"
+                android:scaleType="centerCrop"/>
+        </RelativeLayout>
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:indeterminate="true"
+            android:maxHeight="50dip"
+            android:minHeight="50dip"
+            android:layout_centerInParent="true"
+            android:visibility="gone"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/circular_progressbar"
+            />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="32"
+            android:layout_below="@id/securityPassImg">
+
+            <TextView
+                android:id="@+id/securityPassDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="24dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="16dp"
+                android:gravity="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:text="@string/security_code_text"/>
+
+            <EditText
+                android:id="@+id/accessCode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="24dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="16dp"
+                android:layout_below="@id/securityPassDescription"
+                android:gravity="center"
+                android:layout_centerVertical="true"
+                android:hint="@string/access_code"
+                android:inputType="text"
+                android:imeOptions="actionDone"
+                android:maxLines="1"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/text_border"
+                />
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/getStartCard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="24dp"
+                android:layout_marginLeft="24dp"
+                app:cardUseCompatPadding="true"
+                app:cardElevation="@dimen/cardview_default_elevation"
+                app:cardCornerRadius="25dp"
+                app:cardBackgroundColor="@color/colorAccent"
+                android:layout_below="@id/accessCode"
+                android:layout_marginTop="16dp"
+
+                >
+                <RelativeLayout
+                    android:id="@+id/accessCodeValidation"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="12dp"
+                    android:theme="@style/ripple"
+                    android:background="?attr/selectableItemBackground"
+                    android:clickable="true"
+
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/start_verification"
+                        android:layout_centerInParent="true"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                        android:textColor="@color/colorWhite"
+                        android:textStyle="bold"/>
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+        </RelativeLayout>
+    </LinearLayout>
+
+
+
+</RelativeLayout>

@@ -12,12 +12,14 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import butterknife.BindView;
 import butterknife.ButterKnife;
+import butterknife.OnClick;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ProgressBar;
 
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.personnalize_design.meals.R;
 import com.personnalize_design.meals.data.model.AllCompanySearch;
 import com.personnalize_design.meals.data.model.MainMealSelectedModel;
@@ -59,6 +61,9 @@ public class SearchFragment extends BaseFragment implements SearchFragmentMvpVie
 
     @BindView(R.id.progressBar)
     public ProgressBar progressBar;
+
+    @BindView(R.id.searchOneCompany)
+    public FloatingActionButton fabSearch;
 
     SearchAdapter searchAdapter;
 
@@ -126,6 +131,11 @@ public class SearchFragment extends BaseFragment implements SearchFragmentMvpVie
             }
 
 
+    }
+
+    @OnClick(R.id.searchOneCompany)
+    public void searchCompanyFunction(){
+        getActivity().onSearchRequested();
     }
 
     // TODO: Rename method, update argument and hook method into UI event

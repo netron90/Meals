@@ -7,6 +7,7 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import androidx.annotation.CallSuper;
 import androidx.annotation.UiThread;
+import androidx.appcompat.widget.Toolbar;
 import androidx.recyclerview.widget.RecyclerView;
 import butterknife.Unbinder;
 import butterknife.internal.Utils;
@@ -30,6 +31,7 @@ public class SearchCompany_ViewBinding implements Unbinder {
     target.recyclerView = Utils.findRequiredViewAsType(source, R.id.recyclerView, "field 'recyclerView'", RecyclerView.class);
     target.relativeLayout = Utils.findRequiredViewAsType(source, R.id.container, "field 'relativeLayout'", RelativeLayout.class);
     target.searchNothingToShwo = Utils.findRequiredViewAsType(source, R.id.searchNothingToShwo, "field 'searchNothingToShwo'", TextView.class);
+    target.toolbar = Utils.findRequiredViewAsType(source, R.id.toolbar, "field 'toolbar'", Toolbar.class);
   }
 
   @Override
@@ -43,5 +45,6 @@ public class SearchCompany_ViewBinding implements Unbinder {
     target.recyclerView = null;
     target.relativeLayout = null;
     target.searchNothingToShwo = null;
+    target.toolbar = null;
   }
 }

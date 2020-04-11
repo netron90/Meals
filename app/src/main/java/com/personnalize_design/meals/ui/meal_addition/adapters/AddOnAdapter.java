@@ -81,8 +81,8 @@ public class AddOnAdapter extends RecyclerView.Adapter<AddOnAdapter.ViewHolder> 
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
         GlideApp.with(context)
-                .load(BASE_URL+addOnMenuList.get(position).getAddOnImg())
-                .placeholder(R.drawable.logo)
+                .load(addOnMenuList.get(position).getAddOnImg())
+                .placeholder(R.drawable.meals_logo_v2)
                 .centerCrop().into(holder.addOnImg);
 
         holder.addOnName.setText(addOnMenuList.get(position).getAddOnName());

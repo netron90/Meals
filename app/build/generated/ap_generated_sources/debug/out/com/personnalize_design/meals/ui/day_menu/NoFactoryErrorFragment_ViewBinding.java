@@ -15,7 +15,7 @@ import java.lang.Override;
 public class NoFactoryErrorFragment_ViewBinding implements Unbinder {
   private NoFactoryErrorFragment target;
 
-  private View view7f0800fc;
+  private View view7f080113;
 
   @UiThread
   public NoFactoryErrorFragment_ViewBinding(final NoFactoryErrorFragment target, View source) {
@@ -24,7 +24,7 @@ public class NoFactoryErrorFragment_ViewBinding implements Unbinder {
     View view;
     view = Utils.findRequiredView(source, R.id.ok_btn, "field 'okBtn' and method 'noFactoryFindOkBtn'");
     target.okBtn = Utils.castView(view, R.id.ok_btn, "field 'okBtn'", Button.class);
-    view7f0800fc = view;
+    view7f080113 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -42,7 +42,7 @@ public class NoFactoryErrorFragment_ViewBinding implements Unbinder {
 
     target.okBtn = null;
 
-    view7f0800fc.setOnClickListener(null);
-    view7f0800fc = null;
+    view7f080113.setOnClickListener(null);
+    view7f080113 = null;
   }
 }

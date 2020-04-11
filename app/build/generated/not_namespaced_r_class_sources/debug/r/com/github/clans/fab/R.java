@@ -92,23 +92,23 @@ public final class R {
     public static final class drawable {
         private drawable() {}
 
-        public static final int fab_add = 0x7f07006f;
+        public static final int fab_add = 0x7f070072;
     }
     public static final class id {
         private id() {}
 
-        public static final int down = 0x7f080088;
-        public static final int end = 0x7f08008b;
-        public static final int fab_label = 0x7f080094;
-        public static final int left = 0x7f0800bc;
-        public static final int marquee = 0x7f0800c7;
-        public static final int middle = 0x7f0800d5;
-        public static final int mini = 0x7f0800d6;
-        public static final int none = 0x7f0800f6;
-        public static final int normal = 0x7f0800f7;
-        public static final int right = 0x7f080119;
-        public static final int start = 0x7f080147;
-        public static final int up = 0x7f08017a;
+        public static final int down = 0x7f080095;
+        public static final int end = 0x7f080098;
+        public static final int fab_label = 0x7f0800a6;
+        public static final int left = 0x7f0800d1;
+        public static final int marquee = 0x7f0800dc;
+        public static final int middle = 0x7f0800ea;
+        public static final int mini = 0x7f0800eb;
+        public static final int none = 0x7f08010d;
+        public static final int normal = 0x7f08010e;
+        public static final int right = 0x7f080131;
+        public static final int start = 0x7f080163;
+        public static final int up = 0x7f08019c;
     }
     public static final class styleable {
         private styleable() {}

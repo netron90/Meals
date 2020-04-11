@@ -4,6 +4,10 @@ import com.personnalize_design.meals.data.model.AddOnMenuModel;
 import com.personnalize_design.meals.data.model.AllCompanyModel;
 import com.personnalize_design.meals.data.model.AllCompanySearch;
 import com.personnalize_design.meals.data.model.BillClientInformation;
+import com.personnalize_design.meals.data.model.CompanyAccessCode;
+import com.personnalize_design.meals.data.model.CompanyCatalog;
+import com.personnalize_design.meals.data.model.CompanyPromotion;
+import com.personnalize_design.meals.data.model.CompanySuggestion;
 import com.personnalize_design.meals.data.model.MainMealSelectedModel;
 import com.personnalize_design.meals.data.model.OneCompanySearchModel;
 import com.personnalize_design.meals.data.model.OtherDayMenuModel;
@@ -14,6 +18,7 @@ import com.personnalize_design.meals.data.model.UserOrderModel;
 import java.util.List;
 
 import io.reactivex.Observable;
+import io.reactivex.Single;
 import retrofit2.http.Query;
 
 public interface ApiHelper {
@@ -45,5 +50,14 @@ public interface ApiHelper {
     Observable<AllCompanySearch> reqAllCompanySearch();
     Observable<AllCompanyModel.DataBean> reqOneCompany(String companyName);
     Observable<OneCompanySearchModel> reqOneCompanySearch( String companyName);
+    Observable<ServerResponse> reqEndHourMealsOrder(String companyName);
+    Single<ServerResponse> reqCheckTime();
+    Single<ServerResponse> reqCheckSuggestionTime();
+    Observable<CompanyAccessCode> reqAccessCodeValidation(String accessCode);
+//    Observable<CompanySuggestion> reqCheckCompanySuggestionEnable(String companyName);
+    Observable<CompanySuggestion> reqCheckCompanySuggestionEnable();
+    Observable<ServerResponse> reqSendSuggestionMeal(String suggestionMealText);
+    Observable<CompanyCatalog> reqCompanyCatalog(String companyName);
+    Observable<CompanyPromotion> reqCompanyPromotion(String companyName);
 
 }

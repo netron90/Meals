@@ -5,6 +5,7 @@ import android.view.View;
 import android.widget.RelativeLayout;
 
 
+import com.google.android.material.snackbar.Snackbar;
 import com.personnalize_design.meals.data.model.MainMealSelectedModel;
 import com.personnalize_design.meals.di.ApplicationComponent;
 
@@ -27,13 +28,14 @@ public interface MvpView {
 
     void showDiaologBox(Context context, String title, String message);
 
-    void showConfirmDiaologBox( Context ctn, String title, String message, Callable<Void> action, Callable<Void> action2 );
+    void showConfirmDiaologBox( Context ctn, String title, String message);
 
     void showBialnMealCustomDialogBox(Context ctn, String companyDeliveryPrice, String totalMealPrice, String companyName, List<MainMealSelectedModel> listMealsSelected, ArrayList<String> mealQuantity);
 
 //    void profChenMessageNext(Context ctn, String title, String message, TrainerChoices trainerChoices);
 //
 //    void profChenTrainerName( Context ctn, String title);
+    void showSnackBar(View view, String message, int timeToBeAvailable);
 
     void showConfirmDiaologBoxClosing( String title, String message, Callable<Void> action );
 

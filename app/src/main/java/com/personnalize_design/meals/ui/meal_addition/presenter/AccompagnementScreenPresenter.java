@@ -1,5 +1,7 @@
 package com.personnalize_design.meals.ui.meal_addition.presenter;
 
+import android.util.Log;
+
 import com.personnalize_design.meals.data.DataManager;
 import com.personnalize_design.meals.data.model.AddOnMenuModel;
 import com.personnalize_design.meals.ui.base.BasePresenter;
@@ -53,12 +55,15 @@ public class AccompagnementScreenPresenter <V extends AccompagnementScreenMvpVie
                             disposable.dispose();
                             disposable = null;
                         }
+
                         if(getView() != null){
-                            if(accompagnementList != null)
+                            if(accompagnementList == null || accompagnementList.size() == 0)
                             {
-                                getView().onAdditionMenuReceive(accompagnementList, false);
-                            }else{
+                                Log.d("ACCOMPAGNEMENT LIST", "LISTE des accompagnements false: " + accompagnementList.size());
                                 getView().onAdditionMenuReceive(accompagnementList, true);
+                            }else{
+                                Log.d("ACCOMPAGNEMENT LIST", "LISTE des accompagnements true: " + accompagnementList.size());
+                                getView().onAdditionMenuReceive(accompagnementList, false);
                             }
 
                         }

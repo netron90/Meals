@@ -86,6 +86,8 @@ public class ErrorFragment extends BaseFragment implements ErrorMvpView {
         setUnbinder(ButterKnife.bind(this, view));
         getComponent().inject(this);
         mPresenter.onAttachView(this);
+        mPresenter.getDataManager().setSearchFragmentEnable(false);
+        mPresenter.getDataManager().setFragmentStateToShow(0);
 
     }
 

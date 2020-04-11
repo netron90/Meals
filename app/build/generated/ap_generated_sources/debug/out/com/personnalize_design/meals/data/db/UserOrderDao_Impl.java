@@ -10,11 +10,13 @@ import androidx.room.SharedSQLiteStatement;
 import androidx.room.util.CursorUtil;
 import androidx.room.util.DBUtil;
 import androidx.sqlite.db.SupportSQLiteStatement;
+import com.personnalize_design.meals.constants.Converters;
 import com.personnalize_design.meals.data.model.UserOrderModel;
 import io.reactivex.Completable;
 import io.reactivex.Flowable;
 import io.reactivex.Single;
 import java.lang.Exception;
+import java.lang.Long;
 import java.lang.Override;
 import java.lang.String;
 import java.lang.SuppressWarnings;
@@ -40,7 +42,7 @@ public final class UserOrderDao_Impl implements UserOrderDao {
     this.__insertionAdapterOfUserOrder = new EntityInsertionAdapter<UserOrderModel.UserOrder>(__db) {
       @Override
       public String createQuery() {
-        return "INSERT OR ABORT INTO `user_order` (`id`,`today_date`,`company_name`,`company_contact`,`company_localisation`) VALUES (nullif(?, 0),?,?,?,?)";
+        return "INSERT OR ABORT INTO `user_order` (`id`,`today_date`,`company_name`,`company_contact`,`company_localisation`,`current_meal_order_time`) VALUES (nullif(?, 0),?,?,?,?,?)";
       }
 
       @Override
@@ -65,6 +67,13 @@ public final class UserOrderDao_Impl implements UserOrderDao {
           stmt.bindNull(5);
         } else {
           stmt.bindString(5, value.companyLocalisation);
+        }
+        final Long _tmp;
+        _tmp = Converters.dateToTimestamp(value.currentMealOrderTime);
+        if (_tmp == null) {
+          stmt.bindNull(6);
+        } else {
+          stmt.bindLong(6, _tmp);
         }
       }
     };
@@ -202,6 +211,7 @@ public final class UserOrderDao_Impl implements UserOrderDao {
           final int _cursorIndexOfCompanyName = CursorUtil.getColumnIndexOrThrow(_cursor, "company_name");
           final int _cursorIndexOfCompanyContact = CursorUtil.getColumnIndexOrThrow(_cursor, "company_contact");
           final int _cursorIndexOfCompanyLocalisation = CursorUtil.getColumnIndexOrThrow(_cursor, "company_localisation");
+          final int _cursorIndexOfCurrentMealOrderTime = CursorUtil.getColumnIndexOrThrow(_cursor, "current_meal_order_time");
           final UserOrderModel.UserOrder _result;
           if(_cursor.moveToFirst()) {
             _result = new UserOrderModel.UserOrder();
@@ -210,6 +220,13 @@ public final class UserOrderDao_Impl implements UserOrderDao {
             _result.companyName = _cursor.getString(_cursorIndexOfCompanyName);
             _result.companyContact = _cursor.getString(_cursorIndexOfCompanyContact);
             _result.companyLocalisation = _cursor.getString(_cursorIndexOfCompanyLocalisation);
+            final Long _tmp;
+            if (_cursor.isNull(_cursorIndexOfCurrentMealOrderTime)) {
+              _tmp = null;
+            } else {
+              _tmp = _cursor.getLong(_cursorIndexOfCurrentMealOrderTime);
+            }
+            _result.currentMealOrderTime = Converters.fromTimestamp(_tmp);
           } else {
             _result = null;
           }

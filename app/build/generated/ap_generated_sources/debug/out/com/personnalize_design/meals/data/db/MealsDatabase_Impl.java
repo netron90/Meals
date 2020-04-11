@@ -31,10 +31,10 @@ public final class MealsDatabase_Impl extends MealsDatabase {
     final SupportSQLiteOpenHelper.Callback _openCallback = new RoomOpenHelper(configuration, new RoomOpenHelper.Delegate(1) {
       @Override
       public void createAllTables(SupportSQLiteDatabase _db) {
-        _db.execSQL("CREATE TABLE IF NOT EXISTS `user_order` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `today_date` TEXT, `company_name` TEXT, `company_contact` TEXT, `company_localisation` TEXT)");
+        _db.execSQL("CREATE TABLE IF NOT EXISTS `user_order` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `today_date` TEXT, `company_name` TEXT, `company_contact` TEXT, `company_localisation` TEXT, `current_meal_order_time` INTEGER)");
         _db.execSQL("CREATE TABLE IF NOT EXISTS `user_meal_list` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `id_list` INTEGER NOT NULL, `nom_nourriture` TEXT, `prix_nourriture` TEXT, `image_nourriture` TEXT, `quantity_nourriture` TEXT, FOREIGN KEY(`id_list`) REFERENCES `user_order`(`id`) ON UPDATE NO ACTION ON DELETE NO ACTION )");
         _db.execSQL("CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)");
-        _db.execSQL("INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '833f2eb36910ba2cfaf9cd504a0559a3')");
+        _db.execSQL("INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, 'd4b9d58f058179addf796a118b68b28f')");
       }
 
       @Override
@@ -80,12 +80,13 @@ public final class MealsDatabase_Impl extends MealsDatabase {
 
       @Override
       protected RoomOpenHelper.ValidationResult onValidateSchema(SupportSQLiteDatabase _db) {
-        final HashMap<String, TableInfo.Column> _columnsUserOrder = new HashMap<String, TableInfo.Column>(5);
+        final HashMap<String, TableInfo.Column> _columnsUserOrder = new HashMap<String, TableInfo.Column>(6);
         _columnsUserOrder.put("id", new TableInfo.Column("id", "INTEGER", true, 1, null, TableInfo.CREATED_FROM_ENTITY));
         _columnsUserOrder.put("today_date", new TableInfo.Column("today_date", "TEXT", false, 0, null, TableInfo.CREATED_FROM_ENTITY));
         _columnsUserOrder.put("company_name", new TableInfo.Column("company_name", "TEXT", false, 0, null, TableInfo.CREATED_FROM_ENTITY));
         _columnsUserOrder.put("company_contact", new TableInfo.Column("company_contact", "TEXT", false, 0, null, TableInfo.CREATED_FROM_ENTITY));
         _columnsUserOrder.put("company_localisation", new TableInfo.Column("company_localisation", "TEXT", false, 0, null, TableInfo.CREATED_FROM_ENTITY));
+        _columnsUserOrder.put("current_meal_order_time", new TableInfo.Column("current_meal_order_time", "INTEGER", false, 0, null, TableInfo.CREATED_FROM_ENTITY));
         final HashSet<TableInfo.ForeignKey> _foreignKeysUserOrder = new HashSet<TableInfo.ForeignKey>(0);
         final HashSet<TableInfo.Index> _indicesUserOrder = new HashSet<TableInfo.Index>(0);
         final TableInfo _infoUserOrder = new TableInfo("user_order", _columnsUserOrder, _foreignKeysUserOrder, _indicesUserOrder);
@@ -114,7 +115,7 @@ public final class MealsDatabase_Impl extends MealsDatabase {
         }
         return new RoomOpenHelper.ValidationResult(true, null);
       }
-    }, "833f2eb36910ba2cfaf9cd504a0559a3", "6306c410ba1d75956f85edb80b3896b6");
+    }, "d4b9d58f058179addf796a118b68b28f", "f04601d3017cf0122e7e0d6d2b342f4f");
     final SupportSQLiteOpenHelper.Configuration _sqliteConfig = SupportSQLiteOpenHelper.Configuration.builder(configuration.context)
         .name(configuration.name)
         .callback(_openCallback)

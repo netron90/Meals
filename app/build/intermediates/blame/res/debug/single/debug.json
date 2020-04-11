@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable_text_border.xml.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\src\\main\\res\\drawable\\text_border.xml"
+    },
+    {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_seekbar_track_material.xml.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable\\abc_seekbar_track_material.xml"
     },
@@ -18,6 +22,10 @@
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-hdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_icon_round.xml.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_icon_round.xml"
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
@@ -88,16 +96,16 @@
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\5d52d9573d8a8f70a8462cc8f8a42ce9\\material-1.1.0\\res\\interpolator\\mtrl_fast_out_linear_in.xml"
     },
     {
-        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_place_black_24dp.png.flat",
-        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_place_black_24dp.png"
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_abc_dialog_material_background.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-v21\\abc_dialog_material_background.xml"
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_seekbar_thumb_material.xml.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable\\abc_seekbar_thumb_material.xml"
     },
     {
-        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_abc_dialog_material_background.xml.flat",
-        "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-v21\\abc_dialog_material_background.xml"
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_place_black_24dp.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_place_black_24dp.png"
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat",
@@ -112,6 +120,10 @@
         "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\src\\main\\res\\layout\\fragment_error.xml"
     },
     {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_help_outline_black_24dp.xml.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_help_outline_black_24dp.xml"
+    },
+    {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\color_material_on_background_emphasis_medium.xml.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\5d52d9573d8a8f70a8462cc8f8a42ce9\\material-1.1.0\\res\\color\\material_on_background_emphasis_medium.xml"
     },
@@ -120,12 +132,16 @@
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-ldrtl-xxhdpi-v17\\abc_spinner_mtrl_am_alpha.9.png"
     },
     {
-        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_search_dropdown_item_icons_2line.xml.flat",
-        "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_suggestion.xml.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\src\\main\\res\\layout\\fragment_suggestion.xml"
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_search_dropdown_item_icons_2line.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_smartphone_black_24dp.png.flat",
@@ -140,20 +156,20 @@
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-hdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
-        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_collections_bookmark_black_24dp.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_collections_bookmark_black_24dp.png"
     },
     {
-        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_navigation_menu.xml.flat",
-        "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\5d52d9573d8a8f70a8462cc8f8a42ce9\\material-1.1.0\\res\\layout\\design_navigation_menu.xml"
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_select_dialog_material.xml.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\layout\\abc_select_dialog_material.xml"
     },
     {
-        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_meals_foreground.png.flat",
-        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\src\\main\\res\\drawable-xxxhdpi\\meals_foreground.png"
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_navigation_menu.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\5d52d9573d8a8f70a8462cc8f8a42ce9\\material-1.1.0\\res\\layout\\design_navigation_menu.xml"
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_textfield_search_default_mtrl_alpha.9.png.flat",
@@ -166,10 +182,6 @@
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_star_half_black_48dp.png.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-hdpi-v4\\abc_ic_star_half_black_48dp.png"
-    },
-    {
-        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_meals_background.png.flat",
-        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\src\\main\\res\\drawable-xxxhdpi\\meals_background.png"
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat",
@@ -192,12 +204,12 @@
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\5d52d9573d8a8f70a8462cc8f8a42ce9\\material-1.1.0\\res\\color\\mtrl_btn_stroke_color_selector.xml"
     },
     {
-        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_notification_action_background.xml.flat",
-        "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\2c4911487622891b7d804fc82995f4ba\\core-1.2.0\\res\\drawable-v21\\notification_action_background.xml"
-    },
-    {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\color_material_on_surface_disabled.xml.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\5d52d9573d8a8f70a8462cc8f8a42ce9\\material-1.1.0\\res\\color\\material_on_surface_disabled.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_notification_action_background.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\2c4911487622891b7d804fc82995f4ba\\core-1.2.0\\res\\drawable-v21\\notification_action_background.xml"
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_text_select_handle_middle_mtrl_dark.png.flat",
@@ -208,12 +220,16 @@
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\layout\\abc_list_menu_item_radio.xml"
     },
     {
-        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\layout_mtrl_calendar_month_labeled.xml.flat",
-        "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\5d52d9573d8a8f70a8462cc8f8a42ce9\\material-1.1.0\\res\\layout\\mtrl_calendar_month_labeled.xml"
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_send_black_24dp.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_send_black_24dp.png"
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_action_menu_layout.xml.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\layout_mtrl_calendar_month_labeled.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\5d52d9573d8a8f70a8462cc8f8a42ce9\\material-1.1.0\\res\\layout\\mtrl_calendar_month_labeled.xml"
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_bottom_nav_colored_ripple_color.xml.flat",
@@ -296,16 +312,16 @@
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-mdpi-v4\\abc_text_select_handle_right_mtrl_dark.png"
     },
     {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_notification.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\src\\main\\res\\drawable-xxhdpi\\notification.png"
+    },
+    {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_star_black_36dp.png.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-mdpi-v4\\abc_ic_star_black_36dp.png"
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\anim_fab_scale_up.xml.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\7de47e3b0c7276405496cb35a5a2febd\\fab-1.6.4\\res\\anim\\fab_scale_up.xml"
-    },
-    {
-        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_meals_background.png.flat",
-        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\src\\main\\res\\drawable-xxhdpi\\meals_background.png"
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
@@ -344,6 +360,10 @@
         "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcher_background.png"
     },
     {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_collections_bookmark_black_24dp.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_collections_bookmark_black_24dp.png"
+    },
+    {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_accompagnement_screen.xml.flat",
         "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\src\\main\\res\\layout\\activity_accompagnement_screen.xml"
     },
@@ -368,6 +388,10 @@
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable\\abc_tab_indicator_material.xml"
     },
     {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_send_black_24dp.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_send_black_24dp.png"
+    },
+    {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },
@@ -388,12 +412,12 @@
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\color\\abc_tint_switch_track.xml"
     },
     {
-        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_text_select_handle_right_mtrl_dark.png.flat",
-        "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-hdpi-v4\\abc_text_select_handle_right_mtrl_dark.png"
-    },
-    {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_media_action.xml.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\767612e54049c1347a891905a7e9d5e4\\media-1.0.0\\res\\layout\\notification_media_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_text_select_handle_right_mtrl_dark.png.flat",
+        "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-hdpi-v4\\abc_text_select_handle_right_mtrl_dark.png"
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\layout_text_view_with_theme_line_height.xml.flat",
@@ -422,6 +446,10 @@
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13_design_layout_snackbar.xml.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\5d52d9573d8a8f70a8462cc8f8a42ce9\\material-1.1.0\\res\\layout-sw600dp-v13\\design_layout_snackbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_send_black_clear_24dp.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_send_black_clear_24dp.png"
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\color-v23_abc_tint_seek_thumb.xml.flat",
@@ -480,16 +508,20 @@
         "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\src\\main\\res\\layout\\addon_item.xml"
     },
     {
-        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
-        "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
-    },
-    {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-xhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
     },
     {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
+        "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_vector_test.xml.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\ddf6a25e6e3e5e2af441269b48288beb\\appcompat-resources-1.1.0\\res\\drawable\\abc_vector_test.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_no_promotion.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\src\\main\\res\\drawable-xhdpi\\no_promotion.png"
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_navigation_item_text_color.xml.flat",
@@ -532,12 +564,12 @@
         "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_restaurant_black_24dp.png"
     },
     {
-        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_error.xml.flat",
-        "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\5d52d9573d8a8f70a8462cc8f8a42ce9\\material-1.1.0\\res\\color\\mtrl_error.xml"
-    },
-    {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-mdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_error.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\5d52d9573d8a8f70a8462cc8f8a42ce9\\material-1.1.0\\res\\color\\mtrl_error.xml"
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\color-v21_abc_btn_colored_borderless_text_material.xml.flat",
@@ -624,6 +656,10 @@
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-xxxhdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
     },
     {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_icon.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_icon.png"
+    },
+    {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_ms__selector.xml.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\59ad2ba605cad32a8bfc93d9bb949acf\\material-spinner-1.3.1\\res\\drawable-v21\\ms__selector.xml"
     },
@@ -700,6 +736,10 @@
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-xxhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
     },
     {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_suggestion.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\src\\main\\res\\drawable-ldpi\\suggestion.png"
+    },
+    {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\color_material_on_surface_emphasis_high_type.xml.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\5d52d9573d8a8f70a8462cc8f8a42ce9\\material-1.1.0\\res\\color\\material_on_surface_emphasis_high_type.xml"
     },
@@ -716,16 +756,20 @@
         "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\src\\main\\res\\layout\\other_menu_item.xml"
     },
     {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_no_promotion.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\src\\main\\res\\drawable-hdpi\\no_promotion.png"
+    },
+    {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_navigation_item_separator.xml.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\5d52d9573d8a8f70a8462cc8f8a42ce9\\material-1.1.0\\res\\layout\\design_navigation_item_separator.xml"
     },
     {
-        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\anim_btn_radio_to_off_mtrl_dot_group_animation.xml.flat",
-        "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\anim\\btn_radio_to_off_mtrl_dot_group_animation.xml"
-    },
-    {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_remove_black_24dp.png.flat",
         "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_remove_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\anim_btn_radio_to_off_mtrl_dot_group_animation.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\anim\\btn_radio_to_off_mtrl_dot_group_animation.xml"
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_scrubber_control_off_mtrl_alpha.png.flat",
@@ -762,6 +806,10 @@
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_arrow_back_black_24dp.png.flat",
         "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_arrow_back_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_send_black_24dp.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_send_black_24dp.png"
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_btn_text_btn_ripple_color.xml.flat",
@@ -828,8 +876,16 @@
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\5d52d9573d8a8f70a8462cc8f8a42ce9\\material-1.1.0\\res\\drawable\\mtrl_dialog_background.xml"
     },
     {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_collections_bookmark_black_24dp.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_collections_bookmark_black_24dp.png"
+    },
+    {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_restaurant_black_24dp.xml.flat",
         "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_restaurant_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\layout_workin_day_item.xml.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\src\\main\\res\\layout\\workin_day_item.xml"
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\layout-watch-v20_abc_alert_dialog_title_material.xml.flat",
@@ -854,6 +910,10 @@
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_icon.xml.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_icon.xml"
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21_mtrl_bottom_sheet_slide_in.xml.flat",
@@ -952,6 +1012,14 @@
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-xhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
     },
     {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_icon_round.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_icon_round.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable_circular_progressbar.xml.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\src\\main\\res\\drawable\\circular_progressbar.xml"
+    },
+    {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-xxhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
     },
@@ -962,6 +1030,10 @@
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_list_pressed_holo_light.9.png.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-hdpi-v4\\abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_location_city_black_24dp.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_location_city_black_24dp.png"
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_fab_add.png.flat",
@@ -988,12 +1060,12 @@
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-v21\\abc_btn_colored_material.xml"
     },
     {
-        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_star_half_black_16dp.png.flat",
-        "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-xhdpi-v4\\abc_ic_star_half_black_16dp.png"
-    },
-    {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_popup_enter.xml.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_star_half_black_16dp.png.flat",
+        "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-xhdpi-v4\\abc_ic_star_half_black_16dp.png"
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_edit_text_material.xml.flat",
@@ -1012,24 +1084,28 @@
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-ldrtl-xxxhdpi-v17\\abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
-        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-hdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
-    },
-    {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-xxhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
     },
     {
-        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_design_ic_visibility_off.png.flat",
-        "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\5d52d9573d8a8f70a8462cc8f8a42ce9\\material-1.1.0\\res\\drawable-hdpi-v4\\design_ic_visibility_off.png"
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-hdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_design_password_eye.xml.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\5d52d9573d8a8f70a8462cc8f8a42ce9\\material-1.1.0\\res\\drawable-v21\\design_password_eye.xml"
     },
     {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_design_ic_visibility_off.png.flat",
+        "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\5d52d9573d8a8f70a8462cc8f8a42ce9\\material-1.1.0\\res\\drawable-hdpi-v4\\design_ic_visibility_off.png"
+    },
+    {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-mdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_bullhorn_solid.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_bullhorn_solid.png"
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_search_black_24dp.png.flat",
@@ -1068,12 +1144,20 @@
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\2c4911487622891b7d804fc82995f4ba\\core-1.2.0\\res\\drawable\\notification_bg.xml"
     },
     {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_icon_foreground.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_icon_foreground.png"
+    },
+    {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_normal.9.png.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\2c4911487622891b7d804fc82995f4ba\\core-1.2.0\\res\\drawable-hdpi-v4\\notification_bg_normal.9.png"
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-xhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\layout_catalog_main_recyclerview_model.xml.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\src\\main\\res\\layout\\catalog_main_recyclerview_model.xml"
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_calendar_selected_range.xml.flat",
@@ -1094,10 +1178,6 @@
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
-    },
-    {
-        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_meals_background.png.flat",
-        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\src\\main\\res\\drawable-xhdpi\\meals_background.png"
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\color_switch_thumb_material_dark.xml.flat",
@@ -1140,12 +1220,16 @@
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-xxhdpi-v4\\abc_ic_star_half_black_36dp.png"
     },
     {
-        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_arrow_forward_white_24dp.png.flat",
-        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_arrow_forward_white_24dp.png"
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_send_black_24dp.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_send_black_24dp.png"
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\layout_mtrl_alert_select_dialog_multichoice.xml.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\5d52d9573d8a8f70a8462cc8f8a42ce9\\material-1.1.0\\res\\layout\\mtrl_alert_select_dialog_multichoice.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_arrow_forward_white_24dp.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_arrow_forward_white_24dp.png"
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\layout-v26_mtrl_calendar_month.xml.flat",
@@ -1154,6 +1238,10 @@
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_catalog_icon.xml.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\catalog_icon.xml"
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\xml_standalone_badge_gravity_bottom_end.xml.flat",
@@ -1180,8 +1268,16 @@
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\5d52d9573d8a8f70a8462cc8f8a42ce9\\material-1.1.0\\res\\drawable\\design_fab_background.xml"
     },
     {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_catalog_empty.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\src\\main\\res\\drawable-hdpi\\catalog_empty.png"
+    },
+    {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\layout_mtrl_calendar_day.xml.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\5d52d9573d8a8f70a8462cc8f8a42ce9\\material-1.1.0\\res\\layout\\mtrl_calendar_day.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_no_promotion.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\src\\main\\res\\drawable-xxhdpi\\no_promotion.png"
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_item_background_holo_dark.xml.flat",
@@ -1204,8 +1300,16 @@
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-xxxhdpi-v4\\abc_ic_star_black_36dp.png"
     },
     {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_send_black_clear_24dp.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_send_black_clear_24dp.png"
+    },
+    {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mtrl_ic_error.xml.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\5d52d9573d8a8f70a8462cc8f8a42ce9\\material-1.1.0\\res\\drawable\\mtrl_ic_error.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_collections_bookmark_black_24dp.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_collections_bookmark_black_24dp.png"
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_place_black_24dp.png.flat",
@@ -1218,6 +1322,10 @@
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v23_mtrl_popupmenu_background_dark.xml.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\5d52d9573d8a8f70a8462cc8f8a42ce9\\material-1.1.0\\res\\drawable-v23\\mtrl_popupmenu_background_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_today_black_24dp.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_today_black_24dp.png"
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\color_material_on_background_disabled.xml.flat",
@@ -1256,6 +1364,10 @@
         "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_done_black_24dp.png"
     },
     {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_catalog_empty.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\src\\main\\res\\drawable-ldpi\\catalog_empty.png"
+    },
+    {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\layout_mtrl_calendar_year.xml.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\5d52d9573d8a8f70a8462cc8f8a42ce9\\material-1.1.0\\res\\layout\\mtrl_calendar_year.xml"
     },
@@ -1288,6 +1400,10 @@
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\5d52d9573d8a8f70a8462cc8f8a42ce9\\material-1.1.0\\res\\layout\\design_bottom_sheet_dialog.xml"
     },
     {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_today_black_24dp.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_today_black_24dp.png"
+    },
+    {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_edit_black_24dp.xml.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\5d52d9573d8a8f70a8462cc8f8a42ce9\\material-1.1.0\\res\\drawable\\ic_edit_black_24dp.xml"
     },
@@ -1308,12 +1424,16 @@
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\2c4911487622891b7d804fc82995f4ba\\core-1.2.0\\res\\drawable-mdpi-v4\\notify_panel_notification_icon_bg.png"
     },
     {
-        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
-        "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-mdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_security_pass.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\src\\main\\res\\drawable-mdpi\\security_pass.png"
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_place_black_24dp.png.flat",
         "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_place_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
+        "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-mdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_alert_dialog_title_material.xml.flat",
@@ -1330,6 +1450,10 @@
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ic_menu_overflow_material.xml.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable\\abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_suggestion.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\src\\main\\res\\drawable-mdpi\\suggestion.png"
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_background.png.flat",
@@ -1368,6 +1492,10 @@
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-xhdpi-v4\\abc_ic_star_half_black_36dp.png"
     },
     {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_notification.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\src\\main\\res\\drawable-ldpi\\notification.png"
+    },
+    {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_normal_pressed.9.png.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\2c4911487622891b7d804fc82995f4ba\\core-1.2.0\\res\\drawable-xhdpi-v4\\notification_bg_normal_pressed.9.png"
     },
@@ -1376,8 +1504,20 @@
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\5d52d9573d8a8f70a8462cc8f8a42ce9\\material-1.1.0\\res\\anim-v21\\design_bottom_sheet_slide_in.xml"
     },
     {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_icon_foreground.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_icon_foreground.png"
+    },
+    {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\interpolator_btn_checkbox_checked_mtrl_animation_interpolator_0.xml.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\interpolator\\btn_checkbox_checked_mtrl_animation_interpolator_0.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_catalog_icon.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\catalog_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_catalog_icon.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\catalog_icon.png"
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
@@ -1390,6 +1530,10 @@
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_remove_black_24dp.png.flat",
         "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_remove_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_bullhorn_solid.xml.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_bullhorn_solid.xml"
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_home_black_24dp.png.flat",
@@ -1438,6 +1582,14 @@
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_checkbox_unchecked_mtrl.xml.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable\\btn_checkbox_unchecked_mtrl.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_collections_bookmark_black_24dp.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_collections_bookmark_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_send_black_clear_24dp.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_send_black_clear_24dp.png"
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_tabs_colored_ripple_color.xml.flat",
@@ -1492,6 +1644,10 @@
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\5d52d9573d8a8f70a8462cc8f8a42ce9\\material-1.1.0\\res\\color\\mtrl_tabs_icon_color_selector_colored.xml"
     },
     {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_icon_round.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_icon_round.png"
+    },
+    {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
@@ -1504,8 +1660,20 @@
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-xhdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
     },
     {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable_meals_logo_no_shadow.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\src\\main\\res\\drawable\\meals_logo_no_shadow.png"
+    },
+    {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\layout_mtrl_calendar_day_of_week.xml.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\5d52d9573d8a8f70a8462cc8f8a42ce9\\material-1.1.0\\res\\layout\\mtrl_calendar_day_of_week.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_location_city_black_24dp.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_location_city_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_help_outline_black_24dp.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_help_outline_black_24dp.png"
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_part_time.xml.flat",
@@ -1556,6 +1724,10 @@
         "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_launcher_background.xml"
     },
     {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_meals_logo_no_shadow.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\src\\main\\res\\drawable-v24\\meals_logo_no_shadow.png"
+    },
+    {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_text_select_handle_middle_mtrl_dark.png.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-xxhdpi-v4\\abc_text_select_handle_middle_mtrl_dark.png"
     },
@@ -1570,6 +1742,10 @@
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\layout_mtrl_picker_dialog.xml.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\5d52d9573d8a8f70a8462cc8f8a42ce9\\material-1.1.0\\res\\layout\\mtrl_picker_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_send_black_clear_24dp.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_send_black_clear_24dp.png"
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
@@ -1596,6 +1772,10 @@
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\5d52d9573d8a8f70a8462cc8f8a42ce9\\material-1.1.0\\res\\layout\\text_view_with_line_height_from_layout.xml"
     },
     {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_icon_foreground.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_icon_foreground.png"
+    },
+    {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_chip_ripple_color.xml.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\5d52d9573d8a8f70a8462cc8f8a42ce9\\material-1.1.0\\res\\color\\mtrl_chip_ripple_color.xml"
     },
@@ -1614,6 +1794,10 @@
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_dialog_material_background.xml.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable\\abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_security_pass.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\src\\main\\res\\drawable-ldpi\\security_pass.png"
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_tabs_icon_color_selector.xml.flat",
@@ -1636,12 +1820,20 @@
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\5d52d9573d8a8f70a8462cc8f8a42ce9\\material-1.1.0\\res\\anim\\mtrl_bottom_sheet_slide_in.xml"
     },
     {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_notification.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\src\\main\\res\\drawable-hdpi\\notification.png"
+    },
+    {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-xxxhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\layout_mtrl_layout_snackbar_include.xml.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\5d52d9573d8a8f70a8462cc8f8a42ce9\\material-1.1.0\\res\\layout\\mtrl_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_catalog_empty.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\src\\main\\res\\drawable-mdpi\\catalog_empty.png"
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
@@ -1666,6 +1858,10 @@
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-mdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_icon_round.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_icon_round.png"
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_btn_colored_borderless_text_material.xml.flat",
@@ -1700,6 +1896,10 @@
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable\\abc_btn_check_material_anim.xml"
     },
     {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_today_black_24dp.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_today_black_24dp.png"
+    },
+    {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\xml_standalone_badge.xml.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\5d52d9573d8a8f70a8462cc8f8a42ce9\\material-1.1.0\\res\\xml\\standalone_badge.xml"
     },
@@ -1710,6 +1910,14 @@
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_add_black_24dp.png.flat",
         "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_add_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_security_pass.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\src\\main\\res\\drawable-xxhdpi\\security_pass.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_security_pass.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\src\\main\\res\\drawable-hdpi\\security_pass.png"
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_keyboard_arrow_left_black_24dp.xml.flat",
@@ -1732,8 +1940,16 @@
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-ldrtl-hdpi-v17\\abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_catalog_icon.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\catalog_icon.png"
+    },
+    {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\layout_support_simple_spinner_dropdown_item.xml.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_collections_bookmark_black_24dp.xml.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_collections_bookmark_black_24dp.xml"
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\interpolator_btn_checkbox_unchecked_mtrl_animation_interpolator_0.xml.flat",
@@ -1742,6 +1958,10 @@
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_arrow_forward_white_24dp.png.flat",
         "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_arrow_forward_white_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_suggestion.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\src\\main\\res\\drawable-xxxhdpi\\suggestion.png"
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",
@@ -1778,6 +1998,10 @@
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_arrow_back_black_24dp.png.flat",
         "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_arrow_back_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_no_promotion.xml.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\src\\main\\res\\layout\\fragment_no_promotion.xml"
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\animator_mtrl_chip_state_list_anim.xml.flat",
@@ -1824,12 +2048,24 @@
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-mdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
     },
     {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_help_outline_black_24dp.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_help_outline_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_bullhorn_solid.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_bullhorn_solid.png"
+    },
+    {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\color_test_mtrl_calendar_day_selected.xml.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\5d52d9573d8a8f70a8462cc8f8a42ce9\\material-1.1.0\\res\\color\\test_mtrl_calendar_day_selected.xml"
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-mdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-ldrtl-mdpi-v17\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_send_black_clear_24dp.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_send_black_clear_24dp.png"
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_primary_text_material_dark.xml.flat",
@@ -1840,20 +2076,28 @@
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-mdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
     },
     {
-        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ms__menu_down.xml.flat",
-        "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\59ad2ba605cad32a8bfc93d9bb949acf\\material-spinner-1.3.1\\res\\drawable-anydpi-v21\\ms__menu_down.xml"
-    },
-    {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_screen_simple.xml.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ms__menu_down.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\59ad2ba605cad32a8bfc93d9bb949acf\\material-spinner-1.3.1\\res\\drawable-anydpi-v21\\ms__menu_down.xml"
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_action_tombstone.xml.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\2c4911487622891b7d804fc82995f4ba\\core-1.2.0\\res\\layout\\notification_action_tombstone.xml"
     },
     {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_promotion.xml.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\src\\main\\res\\layout\\fragment_promotion.xml"
+    },
+    {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\layout_test_toolbar_surface.xml.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\5d52d9573d8a8f70a8462cc8f8a42ce9\\material-1.1.0\\res\\layout\\test_toolbar_surface.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_send_black_clear_24dp.xml.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_send_black_clear_24dp.xml"
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\animator-v21_design_appbar_state_list_animator.xml.flat",
@@ -1880,6 +2124,10 @@
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\layout\\abc_action_mode_bar.xml"
     },
     {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_catalog_empty.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\src\\main\\res\\drawable-xhdpi\\catalog_empty.png"
+    },
+    {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable_design_snackbar_background.xml.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\5d52d9573d8a8f70a8462cc8f8a42ce9\\material-1.1.0\\res\\drawable\\design_snackbar_background.xml"
     },
@@ -1890,6 +2138,10 @@
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_bottom_navigation_item.xml.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\5d52d9573d8a8f70a8462cc8f8a42ce9\\material-1.1.0\\res\\layout\\design_bottom_navigation_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_icon.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_icon.png"
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
@@ -1938,6 +2190,10 @@
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\anim_fab_scale_down.xml.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\7de47e3b0c7276405496cb35a5a2febd\\fab-1.6.4\\res\\anim\\fab_scale_down.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_meals_logo_v2.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\src\\main\\res\\drawable-v24\\meals_logo_v2.png"
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_bottom_nav_colored_item_tint.xml.flat",
@@ -2056,6 +2312,10 @@
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\2c4911487622891b7d804fc82995f4ba\\core-1.2.0\\res\\layout-v21\\notification_template_icon_group.xml"
     },
     {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_icon.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_icon.png"
+    },
+    {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_star_half_black_48dp.png.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-xhdpi-v4\\abc_ic_star_half_black_48dp.png"
     },
@@ -2116,6 +2376,10 @@
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\5d52d9573d8a8f70a8462cc8f8a42ce9\\material-1.1.0\\res\\layout\\design_layout_snackbar_include.xml"
     },
     {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_help_outline_black_24dp.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_help_outline_black_24dp.png"
+    },
+    {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_bottom_nav_item_tint.xml.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\5d52d9573d8a8f70a8462cc8f8a42ce9\\material-1.1.0\\res\\color\\mtrl_bottom_nav_item_tint.xml"
     },
@@ -2142,6 +2406,10 @@
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_star_black_16dp.png.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-xhdpi-v4\\abc_ic_star_black_16dp.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_suggestion.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\src\\main\\res\\drawable-hdpi\\suggestion.png"
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_divider_mtrl_alpha.9.png.flat",
@@ -2180,6 +2448,10 @@
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\7de47e3b0c7276405496cb35a5a2febd\\fab-1.6.4\\res\\anim\\fab_slide_in_from_right.xml"
     },
     {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_no_promotion.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\src\\main\\res\\drawable-ldpi\\no_promotion.png"
+    },
+    {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\interpolator_btn_radio_to_on_mtrl_animation_interpolator_0.xml.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\interpolator\\btn_radio_to_on_mtrl_animation_interpolator_0.xml"
     },
@@ -2208,6 +2480,10 @@
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\7de47e3b0c7276405496cb35a5a2febd\\fab-1.6.4\\res\\anim\\fab_slide_out_to_left.xml"
     },
     {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_send_black_clear_24dp.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_send_black_clear_24dp.png"
+    },
+    {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-xhdpi-v4\\abc_popup_background_mtrl_mult.9.png"
     },
@@ -2230,6 +2506,10 @@
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13_mtrl_layout_snackbar.xml.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\5d52d9573d8a8f70a8462cc8f8a42ce9\\material-1.1.0\\res\\layout-sw600dp-v13\\mtrl_layout_snackbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_security_pass.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\src\\main\\res\\drawable-xhdpi\\security_pass.png"
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat",
@@ -2274,6 +2554,10 @@
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mtrl_ic_cancel.xml.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\5d52d9573d8a8f70a8462cc8f8a42ce9\\material-1.1.0\\res\\drawable\\mtrl_ic_cancel.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_bullhorn_solid.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_bullhorn_solid.png"
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
@@ -2344,6 +2628,10 @@
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\5d52d9573d8a8f70a8462cc8f8a42ce9\\material-1.1.0\\res\\interpolator-v21\\mtrl_fast_out_slow_in.xml"
     },
     {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_catalog_empty.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\src\\main\\res\\drawable-xxhdpi\\catalog_empty.png"
+    },
+    {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_star_half_black_36dp.png.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_36dp.png"
     },
@@ -2376,6 +2664,10 @@
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\5d52d9573d8a8f70a8462cc8f8a42ce9\\material-1.1.0\\res\\layout\\design_menu_item_action_area.xml"
     },
     {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_icon_round.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_icon_round.png"
+    },
+    {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_clear_black_24dp.xml.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\5d52d9573d8a8f70a8462cc8f8a42ce9\\material-1.1.0\\res\\drawable\\ic_clear_black_24dp.xml"
     },
@@ -2396,6 +2688,10 @@
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
     },
     {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_today_black_24dp.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_today_black_24dp.png"
+    },
+    {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_search_black_24dp.png.flat",
         "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_search_black_24dp.png"
     },
@@ -2406,10 +2702,6 @@
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_text_input_end_icon.xml.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\5d52d9573d8a8f70a8462cc8f8a42ce9\\material-1.1.0\\res\\layout\\design_text_input_end_icon.xml"
-    },
-    {
-        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_logo.png.flat",
-        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\src\\main\\res\\drawable-xxxhdpi\\logo.png"
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_add_black_24dp.png.flat",
@@ -2438,6 +2730,10 @@
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\animator_mtrl_extended_fab_change_size_motion_spec.xml.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\5d52d9573d8a8f70a8462cc8f8a42ce9\\material-1.1.0\\res\\animator\\mtrl_extended_fab_change_size_motion_spec.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_icon_round.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_icon_round.png"
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_smartphone_black_24dp.xml.flat",
@@ -2476,6 +2772,10 @@
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\5d52d9573d8a8f70a8462cc8f8a42ce9\\material-1.1.0\\res\\color\\mtrl_tabs_legacy_text_color_selector.xml"
     },
     {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_icon_foreground.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_icon_foreground.png"
+    },
+    {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_btn_text_btn_bg_color_selector.xml.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\5d52d9573d8a8f70a8462cc8f8a42ce9\\material-1.1.0\\res\\color\\mtrl_btn_text_btn_bg_color_selector.xml"
     },
@@ -2508,8 +2808,20 @@
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-mdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
     },
     {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_collections_bookmark_black_24dp.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_collections_bookmark_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_notification.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\src\\main\\res\\drawable-mdpi\\notification.png"
+    },
+    {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_low_normal.9.png.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\2c4911487622891b7d804fc82995f4ba\\core-1.2.0\\res\\drawable-mdpi-v4\\notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_company_promotion.xml.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\src\\main\\res\\layout\\item_company_promotion.xml"
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
@@ -2526,6 +2838,10 @@
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ms__selector.xml.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\59ad2ba605cad32a8bfc93d9bb949acf\\material-spinner-1.3.1\\res\\drawable\\ms__selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_help_outline_black_24dp.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_help_outline_black_24dp.png"
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_design_ic_visibility_off.png.flat",
@@ -2548,8 +2864,16 @@
         "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\src\\main\\res\\layout\\activity_menu_quantity.xml"
     },
     {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_location_city_black_24dp.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_location_city_black_24dp.png"
+    },
+    {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_list_divider_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-xxhdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_location_city_black_24dp.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_location_city_black_24dp.png"
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
@@ -2588,16 +2912,20 @@
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-xxhdpi-v4\\abc_text_select_handle_right_mtrl_light.png"
     },
     {
-        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
-        "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
-    },
-    {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_search_url_text.xml.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\color\\abc_search_url_text.xml"
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_action_menu_item_layout.xml.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
+        "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_send_black_24dp.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_send_black_24dp.png"
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
@@ -2628,8 +2956,20 @@
         "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_delete_black_24dp.png"
     },
     {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_catalog.xml.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\src\\main\\res\\layout\\fragment_catalog.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_location_city_black_24dp.xml.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_location_city_black_24dp.xml"
+    },
+    {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_star_black_48dp.png.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-xxxhdpi-v4\\abc_ic_star_black_48dp.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_catalog_icon.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\catalog_icon.png"
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
@@ -2644,12 +2984,24 @@
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\5d52d9573d8a8f70a8462cc8f8a42ce9\\material-1.1.0\\res\\drawable\\ic_mtrl_checked_circle.xml"
     },
     {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_today_black_24dp.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_today_black_24dp.png"
+    },
+    {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\layout_mtrl_layout_snackbar.xml.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\5d52d9573d8a8f70a8462cc8f8a42ce9\\material-1.1.0\\res\\layout\\mtrl_layout_snackbar.xml"
     },
     {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_send_black_24dp.xml.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_send_black_24dp.xml"
+    },
+    {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_add_black_24dp.xml.flat",
         "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_add_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_suggestion.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\src\\main\\res\\drawable-xxhdpi\\suggestion.png"
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_arrow_back_black_24dp.png.flat",
@@ -2664,12 +3016,20 @@
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\layout-v26\\abc_screen_toolbar.xml"
     },
     {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_help_outline_black_24dp.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_help_outline_black_24dp.png"
+    },
+    {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_arrow_forward_white_24dp.png.flat",
         "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_arrow_forward_white_24dp.png"
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_navigation_item_header.xml.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\5d52d9573d8a8f70a8462cc8f8a42ce9\\material-1.1.0\\res\\layout\\design_navigation_item_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_icon_foreground.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_icon_foreground.png"
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
@@ -2756,6 +3116,10 @@
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-xxhdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
     },
     {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_today_black_24dp.xml.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_today_black_24dp.xml"
+    },
+    {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_checkbox_checked_to_unchecked_mtrl_animation.xml.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable\\btn_checkbox_checked_to_unchecked_mtrl_animation.xml"
     },
@@ -2776,12 +3140,20 @@
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\7de47e3b0c7276405496cb35a5a2febd\\fab-1.6.4\\res\\drawable-xhdpi-v4\\fab_add.png"
     },
     {
-        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_radio_on_mtrl.xml.flat",
-        "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable\\btn_radio_on_mtrl.xml"
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_icon.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_icon.png"
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_search_black_24dp.png.flat",
         "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_search_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_radio_on_mtrl.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable\\btn_radio_on_mtrl.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable_meals_logo_v2.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\src\\main\\res\\drawable\\meals_logo_v2.png"
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
@@ -2812,16 +3184,24 @@
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-hdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
     },
     {
-        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_place_black_24dp.xml.flat",
-        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_place_black_24dp.xml"
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_help_outline_black_24dp.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_help_outline_black_24dp.png"
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_expanded_menu_layout.xml.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\layout\\abc_expanded_menu_layout.xml"
     },
     {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_place_black_24dp.xml.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_place_black_24dp.xml"
+    },
+    {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-mdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_bullhorn_solid.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_bullhorn_solid.png"
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\layout_text_view_with_line_height_from_appearance.xml.flat",
@@ -2852,6 +3232,10 @@
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\2c4911487622891b7d804fc82995f4ba\\core-1.2.0\\res\\layout\\custom_dialog.xml"
     },
     {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_catalog_icon.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\catalog_icon.png"
+    },
+    {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\color_checkbox_themeable_attribute_color.xml.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\5d52d9573d8a8f70a8462cc8f8a42ce9\\material-1.1.0\\res\\color\\checkbox_themeable_attribute_color.xml"
     },
@@ -2862,6 +3246,14 @@
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-hdpi-v4\\abc_text_select_handle_right_mtrl_light.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_catalog.xml.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\src\\main\\res\\layout\\activity_catalog.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_suggestion.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\src\\main\\res\\drawable-xhdpi\\suggestion.png"
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\layout_test_reflow_chipgroup.xml.flat",
@@ -2882,6 +3274,10 @@
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_restaurant_black_24dp.png.flat",
         "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_restaurant_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_bullhorn_solid.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_bullhorn_solid.png"
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_background_cache_hint_selector_material_dark.xml.flat",
@@ -2928,6 +3324,10 @@
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\5d52d9573d8a8f70a8462cc8f8a42ce9\\material-1.1.0\\res\\color\\test_mtrl_calendar_day.xml"
     },
     {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_location_city_black_24dp.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_location_city_black_24dp.png"
+    },
+    {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_list_longpressed_holo.9.png.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-xhdpi-v4\\abc_list_longpressed_holo.9.png"
     },
@@ -2946,6 +3346,10 @@
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_smartphone_black_24dp.png.flat",
         "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_smartphone_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_no_promotion.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\src\\main\\res\\drawable-mdpi\\no_promotion.png"
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_arrow_back_black_24dp.png.flat",
@@ -2980,6 +3384,10 @@
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-ldrtl-xhdpi-v17\\abc_spinner_mtrl_am_alpha.9.png"
     },
     {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_notification.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\src\\main\\res\\drawable-xhdpi\\notification.png"
+    },
+    {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_popup_exit.xml.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\anim\\abc_popup_exit.xml"
     },
@@ -2996,6 +3404,10 @@
         "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\src\\main\\res\\layout\\biling_dialog_box.xml"
     },
     {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_send_black_24dp.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_send_black_24dp.png"
+    },
+    {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_btn_default_mtrl_shape.xml.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
     },
@@ -3010,6 +3422,10 @@
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\interpolator_btn_checkbox_unchecked_mtrl_animation_interpolator_1.xml.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\interpolator\\btn_checkbox_unchecked_mtrl_animation_interpolator_1.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_bullhorn_solid.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_bullhorn_solid.png"
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\layout_mtrl_alert_dialog_title.xml.flat",
@@ -3068,6 +3484,10 @@
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-xxhdpi-v4\\abc_ic_star_black_48dp.png"
     },
     {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_location_city_black_24dp.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_location_city_black_24dp.png"
+    },
+    {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\color-v23_abc_tint_switch_track.xml.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\color-v23\\abc_tint_switch_track.xml"
     },
@@ -3080,8 +3500,16 @@
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\5d52d9573d8a8f70a8462cc8f8a42ce9\\material-1.1.0\\res\\animator\\mtrl_extended_fab_state_list_animator.xml"
     },
     {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_security.xml.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\src\\main\\res\\layout\\activity_security.xml"
+    },
+    {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_design_ic_visibility.png.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\5d52d9573d8a8f70a8462cc8f8a42ce9\\material-1.1.0\\res\\drawable-xxhdpi-v4\\design_ic_visibility.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_icon.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_icon.png"
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_ms__drop_down_shadow.9.png.flat",
@@ -3090,6 +3518,10 @@
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_text_select_handle_left_mtrl_dark.png.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-xhdpi-v4\\abc_text_select_handle_left_mtrl_dark.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\layout_catalog_meal_list.xml.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\src\\main\\res\\layout\\catalog_meal_list.xml"
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_tooltip.xml.flat",
@@ -3116,12 +3548,20 @@
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-mdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
     },
     {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_today_black_24dp.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_today_black_24dp.png"
+    },
+    {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_place_black_24dp.png.flat",
         "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_place_black_24dp.png"
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\layout_mtrl_picker_header_dialog.xml.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\5d52d9573d8a8f70a8462cc8f8a42ce9\\material-1.1.0\\res\\layout\\mtrl_picker_header_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_catalog_icon.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\catalog_icon.png"
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
@@ -3144,12 +3584,12 @@
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\layout-watch-v20\\abc_alert_dialog_button_bar_material.xml"
     },
     {
-        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_list_longpressed_holo.9.png.flat",
-        "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-xxhdpi-v4\\abc_list_longpressed_holo.9.png"
-    },
-    {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_lines_media.xml.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\767612e54049c1347a891905a7e9d5e4\\media-1.0.0\\res\\layout\\notification_template_lines_media.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_list_longpressed_holo.9.png.flat",
+        "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-xxhdpi-v4\\abc_list_longpressed_holo.9.png"
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Meals\\app\\build\\intermediates\\res\\merged\\debug\\menu_bottom_navigation_menu.xml.flat",

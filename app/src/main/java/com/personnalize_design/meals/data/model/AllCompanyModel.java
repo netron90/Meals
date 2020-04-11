@@ -4,10 +4,9 @@ import java.util.List;
 
 public class AllCompanyModel {
 
-
     /**
      * message : request success
-     * data : [{"otherMenu":["5e4e3ecc050cc60017d6a319","5e4e3ecc050cc60017d6a31a","5e4e3ecc050cc60017d6a31b"],"accompagnement":["5e4e3ecd050cc60017d6a31f","5e4e3ecd050cc60017d6a320","5e4e3ecd050cc60017d6a321"],"_id":"5e4e3ecc050cc60017d6a318","username":"Paf Delice","email":"fredyannra@gmail.com","contact":"+2296608384","category":"Menu Principal","mainMealImg":"/uploads/bowl-of-vegetable-salad-and-fruits-936611.jpg","mainMealName":"Salade d'Avocat","mainMealPrice":"5000f CFA","coverImage":"2265718036_5993df4700_z.jpg","livraisonPrice":"1000","mainMealImagePath":"assets/uploads/bowl-of-vegetable-salad-and-fruits-936611.jpg","timeRegister":"","__v":2,"coverImagePath":"/css/2265718036_5993df4700_z.jpg"}]
+     * data : [{"workinDay":[{"_id":"5e903ce6c6efb5475408b9c1","dayName":"Lundi","__v":0},{"_id":"5e903ce6c6efb5475408b9c2","dayName":"Mercredi","__v":0},{"_id":"5e903ce6c6efb5475408b9c3","dayName":"Jeudi","__v":0},{"_id":"5e903ce6c6efb5475408b9c4","dayName":"Vendredi","__v":0},{"_id":"5e903ce6c6efb5475408b9c5","dayName":"Samedi","__v":0}],"_id":"5e787f5e6109b31fb8154055","username":"Paf Delice","email":"fredyannra@gmail.com","contact":"+2296608384","category":"Menu Principal","localisation":"AKPAKPA, von face mairie SEGBEYA","mainMealImg":"http://res.cloudinary.com/dawhgtx0h/image/upload/v1585153811/syimkby0ikptkmyb5zbi.jpg","mainMealName":"Salade d'Avocat","mainMealPrice":"1500f CFA","livraisonPrice":"1000","coverImage":"/uploads/5e787f5e6109b31fb8154055\\2265718036_5993df4700_z.jpg","coverImagePath":"/uploads/5e787f5e6109b31fb8154055\\2265718036_5993df4700_z.jpg"}]
      */
 
     private String message;
@@ -31,22 +30,19 @@ public class AllCompanyModel {
 
     public static class DataBean {
         /**
-         * otherMenu : ["5e4e3ecc050cc60017d6a319","5e4e3ecc050cc60017d6a31a","5e4e3ecc050cc60017d6a31b"]
-         * accompagnement : ["5e4e3ecd050cc60017d6a31f","5e4e3ecd050cc60017d6a320","5e4e3ecd050cc60017d6a321"]
-         * _id : 5e4e3ecc050cc60017d6a318
+         * workinDay : [{"_id":"5e903ce6c6efb5475408b9c1","dayName":"Lundi","__v":0},{"_id":"5e903ce6c6efb5475408b9c2","dayName":"Mercredi","__v":0},{"_id":"5e903ce6c6efb5475408b9c3","dayName":"Jeudi","__v":0},{"_id":"5e903ce6c6efb5475408b9c4","dayName":"Vendredi","__v":0},{"_id":"5e903ce6c6efb5475408b9c5","dayName":"Samedi","__v":0}]
+         * _id : 5e787f5e6109b31fb8154055
          * username : Paf Delice
          * email : fredyannra@gmail.com
          * contact : +2296608384
          * category : Menu Principal
-         * mainMealImg : /uploads/bowl-of-vegetable-salad-and-fruits-936611.jpg
+         * localisation : AKPAKPA, von face mairie SEGBEYA
+         * mainMealImg : http://res.cloudinary.com/dawhgtx0h/image/upload/v1585153811/syimkby0ikptkmyb5zbi.jpg
          * mainMealName : Salade d'Avocat
-         * mainMealPrice : 5000f CFA
-         * coverImage : 2265718036_5993df4700_z.jpg
+         * mainMealPrice : 1500f CFA
          * livraisonPrice : 1000
-         * mainMealImagePath : assets/uploads/bowl-of-vegetable-salad-and-fruits-936611.jpg
-         * timeRegister :
-         * __v : 2
-         * coverImagePath : /css/2265718036_5993df4700_z.jpg
+         * coverImage : /uploads/5e787f5e6109b31fb8154055\2265718036_5993df4700_z.jpg
+         * coverImagePath : /uploads/5e787f5e6109b31fb8154055\2265718036_5993df4700_z.jpg
          */
 
         private String _id;
@@ -54,17 +50,14 @@ public class AllCompanyModel {
         private String email;
         private String contact;
         private String category;
+        private String localisation;
         private String mainMealImg;
         private String mainMealName;
         private String mainMealPrice;
-        private String coverImage;
         private String livraisonPrice;
-        private String mainMealImagePath;
-        private String timeRegister;
-        private int __v;
+        private String coverImage;
         private String coverImagePath;
-        private List<String> otherMenu;
-        private List<String> accompagnement;
+        private List<WorkinDayBean> workinDay;
 
         public String get_id() {
             return _id;
@@ -106,6 +99,14 @@ public class AllCompanyModel {
             this.category = category;
         }
 
+        public String getLocalisation() {
+            return localisation;
+        }
+
+        public void setLocalisation(String localisation) {
+            this.localisation = localisation;
+        }
+
         public String getMainMealImg() {
             return mainMealImg;
         }
@@ -130,14 +131,6 @@ public class AllCompanyModel {
             this.mainMealPrice = mainMealPrice;
         }
 
-        public String getCoverImage() {
-            return coverImage;
-        }
-
-        public void setCoverImage(String coverImage) {
-            this.coverImage = coverImage;
-        }
-
         public String getLivraisonPrice() {
             return livraisonPrice;
         }
@@ -146,28 +139,12 @@ public class AllCompanyModel {
             this.livraisonPrice = livraisonPrice;
         }
 
-        public String getMainMealImagePath() {
-            return mainMealImagePath;
+        public String getCoverImage() {
+            return coverImage;
         }
 
-        public void setMainMealImagePath(String mainMealImagePath) {
-            this.mainMealImagePath = mainMealImagePath;
-        }
-
-        public String getTimeRegister() {
-            return timeRegister;
-        }
-
-        public void setTimeRegister(String timeRegister) {
-            this.timeRegister = timeRegister;
-        }
-
-        public int get__v() {
-            return __v;
-        }
-
-        public void set__v(int __v) {
-            this.__v = __v;
+        public void setCoverImage(String coverImage) {
+            this.coverImage = coverImage;
         }
 
         public String getCoverImagePath() {
@@ -178,20 +155,48 @@ public class AllCompanyModel {
             this.coverImagePath = coverImagePath;
         }
 
-        public List<String> getOtherMenu() {
-            return otherMenu;
+        public List<WorkinDayBean> getWorkinDay() {
+            return workinDay;
         }
 
-        public void setOtherMenu(List<String> otherMenu) {
-            this.otherMenu = otherMenu;
+        public void setWorkinDay(List<WorkinDayBean> workinDay) {
+            this.workinDay = workinDay;
         }
 
-        public List<String> getAccompagnement() {
-            return accompagnement;
-        }
+        public static class WorkinDayBean {
+            /**
+             * _id : 5e903ce6c6efb5475408b9c1
+             * dayName : Lundi
+             * __v : 0
+             */
 
-        public void setAccompagnement(List<String> accompagnement) {
-            this.accompagnement = accompagnement;
+            private String _id;
+            private String dayName;
+            private int __v;
+
+            public String get_id() {
+                return _id;
+            }
+
+            public void set_id(String _id) {
+                this._id = _id;
+            }
+
+            public String getDayName() {
+                return dayName;
+            }
+
+            public void setDayName(String dayName) {
+                this.dayName = dayName;
+            }
+
+            public int get__v() {
+                return __v;
+            }
+
+            public void set__v(int __v) {
+                this.__v = __v;
+            }
         }
     }
 }

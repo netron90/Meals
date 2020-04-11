@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.day_menu.MainScreenActivity">
+    tools:context=".ui.day_menu.MainScreenActivity"
+    android:id="@+id/rootContainer">
 
         <androidx.appcompat.widget.Toolbar
             android:layout_width="match_parent"
@@ -13,6 +14,7 @@
             android:id="@+id/toolbar"
             app:popupTheme="@style/Base.ThemeOverlay.AppCompat.Light"
             android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"

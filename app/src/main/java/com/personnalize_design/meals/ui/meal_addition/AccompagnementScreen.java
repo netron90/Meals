@@ -100,17 +100,17 @@ public class AccompagnementScreen extends BaseActivity implements
         mainMealSelectedModel = getIntent().getParcelableExtra(MAIN_MEAL_SELECTED_ITEM);
 
         mainMealSelectedModelList.add(mainMealSelectedModel);
-//        Log.d("COVER IMAGE", "Cover Image Value: " + mainMealSelectedModel.getCompanyCoverImage());
+        Log.d("COVER IMAGE", "Cover Image Value: " + mainMealSelectedModel.getCompanyCoverImage());
         Log.d("DELIVERY PRICE", "Company Delivery Price GO To Quantity" + mainMealSelectedModel.getCompanyDeliveryPrice());
         if(mainMealSelectedModel.getCompanyCoverImage() == null ){
             GlideApp.with(getContext())
-                    .load(R.drawable.logo)
-                    .placeholder(R.drawable.logo)
+                    .load(R.drawable.meals_logo_v2)
+                    .placeholder(R.drawable.meals_logo_v2)
                     .centerCrop().into(companyCoverPicture);
         }else{
             GlideApp.with(getContext())
-                    .load(BASE_URL+mainMealSelectedModel.getCompanyCoverImage())
-                    .placeholder(R.drawable.logo)
+                    .load(mainMealSelectedModel.getCompanyCoverImage())
+                    .placeholder(R.drawable.meals_logo_v2)
                     .centerCrop().into(companyCoverPicture);
         }
 
@@ -132,7 +132,7 @@ public class AccompagnementScreen extends BaseActivity implements
 
     @Override
     public void onAdditionMenuReceive(List<AddOnMenuModel.DataBean.AccompagnementBean> accompagnementList, boolean isListEmpty) {
-        if(isListEmpty){
+        if(isListEmpty == true){
             accompagnementText.setText(getString(R.string.no_add_on));
 
         }else{

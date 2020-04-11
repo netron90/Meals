@@ -28,12 +28,13 @@ public class UserOrderPresenter <V extends UserOrderMvpView> extends BasePresent
     public void getUserMealOrderFromDb() {
         getDataManager().getUserOrderInfo()
                 .subscribeOn(Schedulers.io())
-                .observeOn(Schedulers.io())
+                .observeOn(AndroidSchedulers.mainThread())
                 .subscribe(new Consumer<UserOrderModel.UserOrder>() {
                     @Override
                     public void accept(UserOrderModel.UserOrder userOrder) throws Exception {
                         if(userOrder != null){
                             if(getView() != null){
+                                Log.d("MEAL TIME", "L'heure de suppression: " + userOrder.getCurrentMealOrderTime());
                                 getView().onUserOrderInfoSucces(userOrder);
                             }
                         }else {
@@ -74,7 +75,6 @@ public class UserOrderPresenter <V extends UserOrderMvpView> extends BasePresent
                     getView().onGetListMealOrderSuccess(mealListBeans, userOrder);
                 }
             }
-        })
-        ;
+        }, throwable -> throwable.printStackTrace());
     }
 }

@@ -18,6 +18,7 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.android.material.snackbar.Snackbar;
 import com.personnalize_design.meals.R;
 import com.personnalize_design.meals.data.model.MainMealSelectedModel;
 import com.personnalize_design.meals.data.model.MealFacture;
@@ -111,24 +112,13 @@ public class BaseActivity extends AppCompatActivity implements MvpView {
     }
 
     @Override
-    public void showConfirmDiaologBox ( Context ctn, String title , String message , Callable<Void> action, Callable<Void> action2 ) {
+    public void showConfirmDiaologBox ( Context ctn, String title , String message ) {
 
         new AlertDialog.Builder(ctn)
                 .setTitle(title)
                 .setMessage(message)
-                .setPositiveButton(getString(R.string.yes_action), ( dialogInterface, i) -> {
-                    try {
-                        action.call ();
-                    } catch (Exception e) {
-                        e.printStackTrace ();
-                    }
-                })
-                .setNegativeButton(getResources().getString(R.string.no_action), (dialogInterface, i) -> {
-                    try {
-                        action2.call ();
-                    } catch (Exception e) {
-                        e.printStackTrace ();
-                    }
+                .setPositiveButton("OK", ( dialogInterface, i) -> {
+
 
                 }).show();
     }
@@ -187,15 +177,21 @@ public class BaseActivity extends AppCompatActivity implements MvpView {
                                 " Client Contact: " + clientContact.getText().toString() + " \n Client Localisation: "
                                 + clientLocalisation.getText().toString() + " \n Company Name: " + companyName);
 
+
                         if(ctn instanceof MenuQuantityActivity){
                             OnSendUserOrder onSendUserOrderVar = (MenuQuantityActivity) ctn;
-                            if(TextUtils.isEmpty(clientName.getText().toString()) ||
-                                    TextUtils.isEmpty(clientContact.getText().toString()) ||
-                                    TextUtils.isEmpty(clientLocalisation.getText().toString())){
-                                showLongToast(ctn, getString(R.string.missing_fields));
+                            if(isDelivery.isChecked()){
+                                if(TextUtils.isEmpty(clientName.getText().toString()) ||
+                                        TextUtils.isEmpty(clientContact.getText().toString()) ||
+                                        TextUtils.isEmpty(clientLocalisation.getText().toString())){
+                                    showLongToast(ctn, getString(R.string.missing_fields));
+                                }else{
+                                    onSendUserOrderVar.onSendUserOrder(ctn, totalMealsPrices, companyName, clientName.getText().toString(), clientContact.getText().toString(), clientLocalisation.getText().toString(), mealFactureList);
+                                }
                             }else{
                                 onSendUserOrderVar.onSendUserOrder(ctn, totalMealsPrices, companyName, clientName.getText().toString(), clientContact.getText().toString(), clientLocalisation.getText().toString(), mealFactureList);
                             }
+
                         }
                     }
                 })
@@ -205,6 +201,10 @@ public class BaseActivity extends AppCompatActivity implements MvpView {
 
     }
 
+    @Override
+    public void showSnackBar(View view, String message, int timeToBeAvailable) {
+        Snackbar.make(view, message, timeToBeAvailable).show();
+    }
 
 
     @Override

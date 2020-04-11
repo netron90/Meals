@@ -1,5 +1,6 @@
 package com.personnalize_design.meals.constants;
 
+import android.content.Context;
 import android.util.Log;
 
 import com.jakewharton.retrofit2.adapter.rxjava2.HttpException;
@@ -14,6 +15,7 @@ import io.reactivex.ObservableSource;
 public class Mutils {
     private AppApiHelper mAppApiHelper;
 
+    private Context context;
     public Mutils( AppApiHelper mAppApiHelper) {
         this.mAppApiHelper = mAppApiHelper;
     }
@@ -26,41 +28,75 @@ public class Mutils {
     public static final String TODAY_DATE = BASE_URL + "/today_date";
 
     //ALL COMPANY DATA
-    public static final String FIND_ALL_COMPANY = BASE_URL + "/all_company";
+    public static final String FIND_ALL_COMPANY = BASE_URL + "/api/all_company";
 
     //ALL COMPANY OTHER MENU
-    public static final String COMPANY_OTHER_MENU = BASE_URL + "/other_menu";
+    public static final String COMPANY_OTHER_MENU = BASE_URL + "/api/other_menu";
 
     //ALL COMPANY OTHER MENU
     public static final String ADDITION_MENU = BASE_URL + "/accompagnement_menu";
 
     //ALL COMPANY
-    public static final String ALL_COMPANY_SEARCH = BASE_URL + "/all-company-search";
+    public static final String ALL_COMPANY_SEARCH = BASE_URL + "/api/all-company-search";
 
     //ONE COMPANY
-    public static final String GET_ONE_COMPANY = BASE_URL + "/one_company";
+    public static final String GET_ONE_COMPANY = BASE_URL + "/api/one_company";
 
     //ONE COMPANY SEARCH
-    public static final String GET_ONE_COMPANY_SEARCH = BASE_URL + "/one-company-search";
+    public static final String GET_ONE_COMPANY_SEARCH = BASE_URL + "/api/one-company-search";
+
+    //END HOUR MEAL ORDER
+    public static final String END_OUR_MEAL_ORDER = BASE_URL + "/end_hour_meal_order";
+
+    //CHECK TIME - NOTIFY USER
+    public static final String CHECK_TIME = BASE_URL + "/api/check-time";
+
+    //CHECK TIME - NOTIFY USER
+    public static final String CHECK_SUGGESTION_TIME = BASE_URL + "/api/check-suggestion-time";
 
     //SEND USER ORDER TO COMPANY
     public static final  String URL_SEND_USER_ORDER = BASE_URL + "/sendUserOrder";
 
+    //ACCESS CODE VALIDATION
+    public static final String ACCESS_CODE = BASE_URL + "/api/access-code";
+
+    //COMPANY_SUGGESTION_ENABLE
+    public static final String COMPANY_SUGGESTION_ENABLE = BASE_URL + "/api/company-suggestion-enable";
+
+    //SEND_SUGGESTION_MEAL
+    public static final String SEND_SUGGESTION_MEAL = BASE_URL + "/api/send-suggestion-meal";
+
+    //COMPANY_CATALOGUE
+    public static final String COMPANY_CATALOGUE = BASE_URL + "/api/catalog";
+
+    //COMPANY PROMOTION
+    public static final String COMPANY_PROMOTION = BASE_URL + "/api/pub";
+
     //APP CONSTANTS
     public static final long ANIM_DURATION = 4000;
+    public static final long ONE_HOUR_IN_MIL_SEC_CONSTANT = 36000000;
+    public static final long HOUR_IN_MIL_SEC_CONSTANT = 36000000 * 5;
+    public static final long MIN_IN_MIL_SEC_CONSTANT = 1200000;
+    public static final long EVERY_15_SEC = 15000;
     public static final String FRAGMENT_STATE_SHOW = "fragment_sate_show";
     public static final String SEARCH_STATE = "search_state";
     public static final String USER_ORDER_FROM_SERVER = "user_order_from_server";
     public static final String USER_DELIVERY_STATE = "user_delivery_state";
+    public static final String MEAL_ORDER_EXIST = "user_meal_order_exist";
 
     public static final String MAIN_MEAL_SELECTED_ITEM = "main_meal_selected_item";
 
-    public static final String POKEMON_TRAINER_NAME = "message_prof_chen";
+    public static final String DELETE_LIST_USER_MEAL = "delete_list_user_meal";
+    public static final String DELETE_ALL_USER_DATA = "delete_all_user_data";
+    public static final String SERVICE_CHECK_ORDER_TIME = "service_check_order_time";
+    public static final String COMPANY_USERNAME = "companyUsername";
+    public static final String COMPANY_PHONE = "companyPhoneNumber";
+    public static final String SUGGESTION_SEND = "suggestionSend";
+    public static final String USER_ACCESS_CODE = "user_access_code";
 
-    public static final int PROF_CHEN_MSG1_VALUE = 1;
-    public static final int PROF_CHEN_MSG2_VALUE = 2;
-    public static final int PROF_CHEN_MSG3_VALUE = 3;
-    public static final int PROF_CHEN_MSG4_VALUE = 4;
+    public static final String ACTION_SEND_BROADCAST = "com.personnalize_design.meals.START_NOTIFY_USER_SERVICE.broadcast";
+    public static final String ACTION_TIME_DELETE_USER_ORDER = "com.personnalize_design.meals.TIME_TO_DELETE_USER_ORDER.broadcast";
+
 
 
 

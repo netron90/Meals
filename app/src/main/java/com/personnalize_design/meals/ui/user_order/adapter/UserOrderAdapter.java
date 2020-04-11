@@ -9,7 +9,7 @@ import android.widget.TextView;
 
 import com.personnalize_design.meals.R;
 import com.personnalize_design.meals.data.model.UserOrderModel;
-import com.personnalize_design.meals.di.GlideApp;
+//import com.personnalize_design.meals.di.GlideApp;
 
 import java.util.List;
 
@@ -37,10 +37,10 @@ public class UserOrderAdapter extends RecyclerView.Adapter<UserOrderAdapter.View
 
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
-        GlideApp.with(context)
-                .load(BASE_URL+listBeans.get(position).getImageDeLaBouf())
-                .placeholder(R.drawable.logo)
-                .centerCrop().into(holder.mealImage);
+//        GlideApp.with(context)
+//                .load(BASE_URL+listBeans.get(position).getImageDeLaBouf())
+//                .placeholder(R.drawable.meals_logo_v2)
+//                .centerCrop().into(holder.mealImage);
 
         holder.mealName.setText(listBeans.get(position).nomDeLaBouf);
         holder.mealQuantity.setText("Qte: " + listBeans.get(position).quantiteDeLaBouf);

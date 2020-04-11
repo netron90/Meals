@@ -11,17 +11,20 @@ import android.app.SearchManager;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import com.google.android.material.snackbar.Snackbar;
 import com.personnalize_design.meals.R;
 import com.personnalize_design.meals.data.model.OneCompanySearchModel;
 import com.personnalize_design.meals.ui.base.BaseActivity;
 import com.personnalize_design.meals.ui.day_menu.MainScreenActivity;
 import com.personnalize_design.meals.ui.error.ErrorFragment;
 import com.personnalize_design.meals.ui.search.adapters.OneCompanySearchAdapter;
+import com.personnalize_design.meals.ui.search.adapters.SearchAdapter;
 import com.personnalize_design.meals.ui.search.interfaces.SearchCompanyMvpView;
 import com.personnalize_design.meals.ui.search.presenter.SearchCompanyPresenter;
 
@@ -32,7 +35,7 @@ import javax.inject.Inject;
 
 public class SearchCompany extends BaseActivity implements SearchCompanyMvpView,
         OneCompanySearchAdapter.OnOneCompanySelected, ErrorFragment.OnFragmentInteractionListener,
-        OneCompanySearchAdapter.OnNoDataFound
+        OneCompanySearchAdapter.OnNoDataFound, SearchAdapter.OnCompanySelected
 {
 
     @Inject
@@ -55,7 +58,7 @@ public class SearchCompany extends BaseActivity implements SearchCompanyMvpView,
 
     OneCompanySearchAdapter oneCompanySearchAdapter;
 
-    List<OneCompanySearchModel> oneCompanySearchList;
+    List<OneCompanySearchModel.CompanyData> oneCompanySearchList;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -75,12 +78,8 @@ public class SearchCompany extends BaseActivity implements SearchCompanyMvpView,
             searchNothingToShwo.setVisibility(View.GONE);
             recyclerView.setVisibility(View.VISIBLE);
             progressBar.setVisibility(View.VISIBLE);
-            oneCompanySearchList = new ArrayList<>();
-            oneCompanySearchAdapter = new OneCompanySearchAdapter(oneCompanySearchList, this);
-            recyclerView.setAdapter(oneCompanySearchAdapter);
-            recyclerView.setHasFixedSize(true);
-            recyclerView.setLayoutManager(new LinearLayoutManager(getContext(), LinearLayoutManager.VERTICAL, false));
-            recyclerView.setItemAnimator(new DefaultItemAnimator());
+//            oneCompanySearchList = new ArrayList<>();
+
             Intent intent = getIntent();
             if (Intent.ACTION_SEARCH.equals(intent.getAction())) {
                 String query = intent.getStringExtra(SearchManager.QUERY);
@@ -109,11 +108,18 @@ public class SearchCompany extends BaseActivity implements SearchCompanyMvpView,
         relativeLayout.setVisibility(View.GONE);
         mPresenter.getDataManager().setFragmentStateToShow(0);
         mPresenter.getDataManager().setSearchFragmentEnable(true);
+        Log.d("SEARCH COMPANY ACTIVITY", "SeachCOmpany Activity Company Name: " + companyName);
         Intent intentDayFragment = new Intent(this, MainScreenActivity.class);
         intentDayFragment.putExtra("arg_fragment_day_menu", companyName);
+        intentDayFragment.addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP | Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(intentDayFragment);
         finish();
 //        changeFragment(new DayMenuFragment(), companyName);
+    }
+
+    @Override
+    public void onCanNotPassOrder() {
+        showSnackBar(relativeLayout, getString(R.string.company_not_work), Snackbar.LENGTH_LONG);
     }
 
     @Override
@@ -126,14 +132,23 @@ public class SearchCompany extends BaseActivity implements SearchCompanyMvpView,
     }
 
     @Override
-    public void onFoundOneCOmpanySuccess(OneCompanySearchModel oneCompanySearchModel) {
+    public void onFoundOneCompanySuccess(List<OneCompanySearchModel.CompanyData> oneCompanySearchModel) {
         progressBar.setVisibility(View.GONE);
         recyclerView.setVisibility(View.VISIBLE);
-        progressBar.setVisibility(View.GONE);
         relativeLayout.setVisibility(View.GONE);
         searchNothingToShwo.setVisibility(View.GONE);
-        oneCompanySearchList.add(oneCompanySearchModel);
-        oneCompanySearchAdapter.notifyDataSetChanged();
+        oneCompanySearchAdapter = new OneCompanySearchAdapter(oneCompanySearchModel, this);
+        recyclerView.setAdapter(oneCompanySearchAdapter);
+        recyclerView.setHasFixedSize(true);
+        recyclerView.setLayoutManager(new LinearLayoutManager(getContext(), LinearLayoutManager.VERTICAL, false));
+        recyclerView.setItemAnimator(new DefaultItemAnimator());
+
+
+
+//        oneCompanySearchList = oneCompanySearchModel;
+//        oneCompanySearchAdapter.notifyDataSetChanged();
+//        oneCompanySearchList.add(oneCompanySearchModel);
+//        oneCompanySearchAdapter.notifyDataSetChanged();
     }
 
     @Override

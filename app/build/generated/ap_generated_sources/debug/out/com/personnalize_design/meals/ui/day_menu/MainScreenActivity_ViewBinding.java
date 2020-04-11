@@ -2,8 +2,10 @@
 package com.personnalize_design.meals.ui.day_menu;
 
 import android.view.View;
+import android.widget.RelativeLayout;
 import androidx.annotation.CallSuper;
 import androidx.annotation.UiThread;
+import androidx.appcompat.widget.Toolbar;
 import butterknife.Unbinder;
 import butterknife.internal.Utils;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
@@ -23,7 +25,9 @@ public class MainScreenActivity_ViewBinding implements Unbinder {
   public MainScreenActivity_ViewBinding(MainScreenActivity target, View source) {
     this.target = target;
 
+    target.toolbar = Utils.findRequiredViewAsType(source, R.id.toolbar, "field 'toolbar'", Toolbar.class);
     target.bottomNavigationView = Utils.findRequiredViewAsType(source, R.id.bottom_navigation_view, "field 'bottomNavigationView'", BottomNavigationView.class);
+    target.relativeLayout = Utils.findRequiredViewAsType(source, R.id.rootContainer, "field 'relativeLayout'", RelativeLayout.class);
   }
 
   @Override
@@ -33,6 +37,8 @@ public class MainScreenActivity_ViewBinding implements Unbinder {
     if (target == null) throw new IllegalStateException("Bindings already cleared.");
     this.target = null;
 
+    target.toolbar = null;
     target.bottomNavigationView = null;
+    target.relativeLayout = null;
   }
 }

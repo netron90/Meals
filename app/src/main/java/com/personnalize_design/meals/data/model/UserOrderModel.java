@@ -1,6 +1,7 @@
 package com.personnalize_design.meals.data.model;
 
 
+import java.util.Date;
 import java.util.List;
 
 import androidx.room.ColumnInfo;
@@ -111,6 +112,9 @@ public class UserOrderModel {
         @ColumnInfo(name = "company_localisation")
         public String companyLocalisation;
 
+        @ColumnInfo(name = "current_meal_order_time")
+        public Date currentMealOrderTime;
+
         public int getId() {
             return id;
         }
@@ -149,6 +153,14 @@ public class UserOrderModel {
 
         public void setCompanyLocalisation(String companyLocalisation) {
             this.companyLocalisation = companyLocalisation;
+        }
+
+        public Date getCurrentMealOrderTime() {
+            return currentMealOrderTime;
+        }
+
+        public void setCurrentMealOrderTime(Date currentMealOrderTime) {
+            this.currentMealOrderTime = currentMealOrderTime;
         }
     }
 

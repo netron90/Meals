@@ -15,6 +15,7 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.android.material.snackbar.Snackbar;
 import com.personnalize_design.meals.R;
 import com.personnalize_design.meals.data.model.MainMealSelectedModel;
 import com.personnalize_design.meals.di.App;
@@ -80,23 +81,12 @@ public class BaseFragment extends Fragment implements MvpView {
     }
 
     @Override
-    public void showConfirmDiaologBox (Context ctn,  String title , String message , Callable<Void> action, Callable<Void> action2 ) {
+    public void showConfirmDiaologBox (Context ctn,  String title , String message) {
         new AlertDialog.Builder(getContext())
                 .setTitle(title)
                 .setMessage(message)
-                .setPositiveButton(getString (R.string.yes_action), (dialogInterface, i) -> {
-                    try {
-                        action.call ();
-                    } catch (Exception e) {
-                        e.printStackTrace ();
-                    }
-                })
-                .setNegativeButton(getResources().getString(R.string.no_action), (dialogInterface, i) -> {
-                    try {
-                        action2.call ();
-                    } catch (Exception e) {
-                        e.printStackTrace ();
-                    }
+                .setPositiveButton("OK", (dialogInterface, i) -> {
+
 
                 }).show();
     }
@@ -140,6 +130,11 @@ public class BaseFragment extends Fragment implements MvpView {
         new AlertDialog.Builder(ctn)
                 .setView(view)
                 .show();
+    }
+
+    @Override
+    public void showSnackBar(View view, String message, int timeToBeAvailable) {
+        Snackbar.make(view, message, timeToBeAvailable).show();
     }
 
 //    @Override
@@ -239,7 +234,8 @@ public class BaseFragment extends Fragment implements MvpView {
         Bundle bundle = new Bundle();
         bundle.putString("companyName", companyName);
         mFragment.setArguments(bundle);
-        fragmentManager = getFragmentManager();
+        fragmentManager = getActivity().getSupportFragmentManager();
+        fragmentManager.beginTransaction().replace(R.id.container, mFragment).commit();
 //        fragmentManager.beginTransaction()
 //                .setCustomAnimations(android.R.anim.fade_in, android.R.anim.fade_out).replace(R.id.container_coupon, mFragment).commit();
 //        if(mFragment instanceof LoginFormFragment)

@@ -95,7 +95,7 @@ public class NoFactoryErrorFragment extends BaseFragment implements NoFactoryErr
 
     @OnClick(R.id.ok_btn)
     public void noFactoryFindOkBtn(){
-        changeFragment(new DayMenuFragment());
+        getActivity().finish();
     }
 
     // TODO: Rename method, update argument and hook method into UI event

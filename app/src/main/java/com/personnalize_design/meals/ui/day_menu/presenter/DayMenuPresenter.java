@@ -15,11 +15,19 @@ import java.util.Timer;
 
 import javax.inject.Inject;
 
+import io.reactivex.Observable;
+import io.reactivex.ObservableSource;
 import io.reactivex.Observer;
+import io.reactivex.Single;
+import io.reactivex.SingleEmitter;
+import io.reactivex.SingleObserver;
+import io.reactivex.SingleOnSubscribe;
+import io.reactivex.SingleSource;
 import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.disposables.CompositeDisposable;
 import io.reactivex.disposables.Disposable;
 import io.reactivex.functions.Consumer;
+import io.reactivex.functions.Function;
 import io.reactivex.schedulers.Schedulers;
 import timber.log.Timber;
 
@@ -35,7 +43,12 @@ public class DayMenuPresenter <V extends DayMenuMvpView> extends BasePresenter<V
 
     public void menuDayRequest() {
 
-        allCompanyList = new ArrayList<>();
+        if(allCompanyList != null){
+            allCompanyList.clear();
+        }else{
+            allCompanyList = new ArrayList<>();
+        }
+
         //Today Date request
         getDataManager().reqGetTodayDate()
                 .subscribeOn(Schedulers.io())
@@ -48,6 +61,7 @@ public class DayMenuPresenter <V extends DayMenuMvpView> extends BasePresenter<V
                         Timber.d("Date From Server: " + todayDateModel);
                         if(getView() != null)
                         {
+                            Log.d("GET VIEW METHOD", "Get view Method: " + getView());
                             getView().setTodayDateMenu(todayDateModel);
                         }
                     }
@@ -71,6 +85,9 @@ public class DayMenuPresenter <V extends DayMenuMvpView> extends BasePresenter<V
                     @Override
                     public void onError(Throwable e) {
                         e.printStackTrace();
+                        if(getView() != null){
+                            getView().onErrorOccured();
+                        }
                     }
 
                     @Override
@@ -80,12 +97,6 @@ public class DayMenuPresenter <V extends DayMenuMvpView> extends BasePresenter<V
                             disposable.dispose();
                             disposable = null;
                         }
-
-                        Timber.d("Tmber All company Size: " + allCompanyList.size());
-                        Timber.d("Tmber All Maim Meal: " + allCompanyList.get(0).getMainMealName());
-                        Log.d("COMPANY ACTIVITY SIZE", "All company Activity Size: " + allCompanyList.size());
-                        Log.d("COMPANY MAIN MEAL", "All company Activity Main Meal: " + allCompanyList.get(0).getMainMealName());
-
 
                         if(allCompanyList.size() == 0 || allCompanyList.isEmpty() ){
                             if(getView() != null){
@@ -129,6 +140,9 @@ public class DayMenuPresenter <V extends DayMenuMvpView> extends BasePresenter<V
                     @Override
                     public void onError(Throwable e) {
                         e.printStackTrace();
+                        if(getView() != null){
+                            getView().onErrorOccured();
+                        }
                     }
 
                     @Override
@@ -139,19 +153,7 @@ public class DayMenuPresenter <V extends DayMenuMvpView> extends BasePresenter<V
                             disposable2 = null;
                         }
 
-                        Log.d("OTHER COMPANY SIZE", "All Other Menu Size: " + otherDayMenuList.size());
-                        Log.d("COMPANY MAIN MEAL", "All Other Menu Meal Name: " + otherDayMenuList.get(0).getMealName());
 
-
-
-                        Log.d("OUT LOOP", "--------- OUT OF LOOP -------");
-
-//                        for(OtherDayMenuModel.DataBean.OtherMenuBean temp : otherDayMenuList){
-//                            if(temp.getMealImg().equals("/images/logo.png")){
-//                                otherDayMenuList.remove(position);
-//                                position++;
-//                            }
-//                        }
                         if(otherDayMenuList.size() == 0 ){
                             if(getView() != null){
                                 getView().getAllOtherMenuCompany(otherDayMenuList, companyCoverImage, true, deliveryPrice);
@@ -167,7 +169,13 @@ public class DayMenuPresenter <V extends DayMenuMvpView> extends BasePresenter<V
 
     public void getOneCompany(String companyName) {
 
-        allCompanyList.clear();
+        if(allCompanyList != null)
+        {
+            allCompanyList.clear();
+        }else{
+            allCompanyList = new ArrayList<>();
+        }
+
         getDataManager().reqGetTodayDate()
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
@@ -195,27 +203,101 @@ public class DayMenuPresenter <V extends DayMenuMvpView> extends BasePresenter<V
 
                     @Override
                     public void onNext(AllCompanyModel.DataBean dataBean) {
-
                         allCompanyList.add(dataBean);
                     }
 
                     @Override
                     public void onError(Throwable e) {
                         e.printStackTrace();
+                        if(getView() != null){
+                            getView().onErrorOccured();
+                        }
                     }
 
                     @Override
                     public void onComplete() {
                         if(disposable3 != null)
                         {
-                            disposable3.dispose();
-                            disposable3 = null;
+                        disposable3.dispose();
+                        disposable3 = null;
                         }
                         if(getView() != null){
-                            getView().getAllCompanyData(allCompanyList, 1);
+                        getView().getAllCompanyData(allCompanyList, 1);
                         }
                     }
                 });
+//                .concatMap(new Function<AllCompanyModel, ObservableSource<AllCompanyModel.DataBean>>() {
+//                    @Override
+//                    public ObservableSource<AllCompanyModel.DataBean> apply(AllCompanyModel allCompanyModel) throws Exception {
+//                        return Observable.fromIterable(allCompanyModel.getData());
+//                    }
+//                })
+//                .subscribeOn(Schedulers.io())
+//                .observeOn(AndroidSchedulers.mainThread())
+//                .subscribe(new Observer<AllCompanyModel.DataBean>() {
+//                    @Override
+//                    public void onSubscribe(Disposable d) {
+//                        disposable3 = d;
+//                    }
+//
+//                    @Override
+//                    public void onNext(AllCompanyModel.DataBean dataBean) {
+//                        allCompanyList.add(dataBean);
+//                    }
+//
+//                    @Override
+//                    public void onError(Throwable e) {
+//                        e.printStackTrace();
+//                        if(getView() != null){
+//                            getView().onErrorOccured();
+//                        }
+//                    }
+//
+//                    @Override
+//                    public void onComplete() {
+//                        if(disposable3 != null)
+//                        {
+//                            disposable3.dispose();
+//                            disposable3 = null;
+//                        }
+//                        if(getView() != null){
+//                            getView().getAllCompanyData(allCompanyList, 1);
+//                        }
+//                    }
+//                });
+
 
     }
 }
+
+
+
+//.subscribe(new Observer<AllCompanyModel.DataBean>() {
+//@Override
+//public void onSubscribe(Disposable d) {
+//        disposable3 = d;
+//        }
+//
+//@Override
+//public void onNext(AllCompanyModel.DataBean dataBean) {
+//
+//        allCompanyList.add(dataBean);
+//        }
+//
+//@Override
+//public void onError(Throwable e) {
+//        e.printStackTrace();
+//        }
+//
+//@Override
+//public void onComplete() {
+//        if(disposable3 != null)
+//        {
+//        disposable3.dispose();
+//        disposable3 = null;
+//        }
+//        if(getView() != null){
+//        getView().getAllCompanyData(allCompanyList, 1);
+//        }
+//        }
+//        });

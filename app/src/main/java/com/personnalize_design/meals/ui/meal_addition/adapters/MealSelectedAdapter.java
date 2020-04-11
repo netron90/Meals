@@ -10,10 +10,10 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.bumptech.glide.load.DataSource;
-import com.bumptech.glide.load.engine.GlideException;
-import com.bumptech.glide.request.RequestListener;
-import com.bumptech.glide.request.target.Target;
+//import com.bumptech.glide.load.DataSource;
+//import com.bumptech.glide.load.engine.GlideException;
+//import com.bumptech.glide.request.RequestListener;
+//import com.bumptech.glide.request.target.Target;
 import com.personnalize_design.meals.R;
 import com.personnalize_design.meals.data.model.MainMealSelectedModel;
 import com.personnalize_design.meals.di.GlideApp;
@@ -57,8 +57,8 @@ public class MealSelectedAdapter extends RecyclerView.Adapter<MealSelectedAdapte
 //            holder.deleteMealSelect.setVisibility(View.GONE);
 //        }
         GlideApp.with(this.context)
-                .load(BASE_URL+mainMealList.get(position).getMainMealImage())
-                .placeholder(R.drawable.logo)
+                .load(mainMealList.get(position).getMainMealImage())
+                .placeholder(R.drawable.meals_logo_v2)
                 .centerCrop()
                 .into(holder.imgMealSelected);
 

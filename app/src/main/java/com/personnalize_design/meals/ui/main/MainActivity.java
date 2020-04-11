@@ -17,6 +17,7 @@ import com.personnalize_design.meals.ui.base.BaseActivity;
 import com.personnalize_design.meals.ui.day_menu.MainScreenActivity;
 import com.personnalize_design.meals.ui.main.interfaces.MainActivityMvpView;
 import com.personnalize_design.meals.ui.main.presenter.MainActivityPresenter;
+import com.personnalize_design.meals.ui.security.SecurityActivity;
 
 import javax.inject.Inject;
 
@@ -69,7 +70,7 @@ public class MainActivity extends BaseActivity implements MainActivityMvpView {
 
     @OnClick(R.id.getStartBtn)
     public void seeDayMenu(){
-        startActivity(getContext(), MainScreenActivity.class);
+        startActivity(this, SecurityActivity.class);
         finish();
     }
 }

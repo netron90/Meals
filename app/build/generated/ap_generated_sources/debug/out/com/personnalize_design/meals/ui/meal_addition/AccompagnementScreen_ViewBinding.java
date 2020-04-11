@@ -19,7 +19,7 @@ import java.lang.Override;
 public class AccompagnementScreen_ViewBinding implements Unbinder {
   private AccompagnementScreen target;
 
-  private View view7f080060;
+  private View view7f08006b;
 
   @UiThread
   public AccompagnementScreen_ViewBinding(AccompagnementScreen target) {
@@ -38,7 +38,7 @@ public class AccompagnementScreen_ViewBinding implements Unbinder {
     target.addOnRecView = Utils.findRequiredViewAsType(source, R.id.recyclerView, "field 'addOnRecView'", RecyclerView.class);
     view = Utils.findRequiredView(source, R.id.chooseMenuQuantity, "field 'chooseMenuQuantity' and method 'goToMenuQuantityChosen'");
     target.chooseMenuQuantity = Utils.castView(view, R.id.chooseMenuQuantity, "field 'chooseMenuQuantity'", Button.class);
-    view7f080060 = view;
+    view7f08006b = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -63,7 +63,7 @@ public class AccompagnementScreen_ViewBinding implements Unbinder {
     target.chooseMenuQuantity = null;
     target.accompagnementText = null;
 
-    view7f080060.setOnClickListener(null);
-    view7f080060 = null;
+    view7f08006b.setOnClickListener(null);
+    view7f08006b = null;
   }
 }

@@ -52,8 +52,8 @@ public class MainMealsAdapter extends RecyclerView.Adapter<MainMealsAdapter.View
 
         holder.otherMenuCompanyName.setText(otherDayMenuModelList.get(position).getUsername() + " - Menu");
         GlideApp.with(this.context)
-                .load(BASE_URL+otherDayMenuModelList.get(position).getMainMealImg())
-                .placeholder(R.drawable.logo)
+                .load(otherDayMenuModelList.get(position).getMainMealImg())
+                .placeholder(R.drawable.meals_logo_v2)
                 .centerCrop()
                 .into(holder.otherMealImg);
         holder.otherMealName.setText(otherDayMenuModelList.get(position).getMainMealName());

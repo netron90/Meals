@@ -5,6 +5,10 @@ import com.personnalize_design.meals.data.model.AddOnMenuModel;
 import com.personnalize_design.meals.data.model.AllCompanyModel;
 import com.personnalize_design.meals.data.model.AllCompanySearch;
 import com.personnalize_design.meals.data.model.BillClientInformation;
+import com.personnalize_design.meals.data.model.CompanyAccessCode;
+import com.personnalize_design.meals.data.model.CompanyCatalog;
+import com.personnalize_design.meals.data.model.CompanyPromotion;
+import com.personnalize_design.meals.data.model.CompanySuggestion;
 import com.personnalize_design.meals.data.model.MainMealSelectedModel;
 import com.personnalize_design.meals.data.model.OneCompanySearchModel;
 import com.personnalize_design.meals.data.model.OtherDayMenuModel;
@@ -20,6 +24,10 @@ import javax.inject.Inject;
 
 import io.reactivex.Observable;
 import io.reactivex.ObservableSource;
+import io.reactivex.Single;
+import io.reactivex.SingleEmitter;
+import io.reactivex.SingleOnSubscribe;
+import io.reactivex.SingleSource;
 import io.reactivex.functions.Function;
 import retrofit2.Retrofit;
 
@@ -103,6 +111,26 @@ public class AppApiHelper implements ApiHelper {
 
     @Override
     public Observable<AllCompanyModel.DataBean> reqOneCompany(String companyName) {
+
+//        Observable<AllCompanyModel> source = retrofit.create (RestClient.class).reqOneCompany (companyName);
+//
+//        return source.retryWhen (throwableObservable -> mUtils.retryOnErrorGetData (throwableObservable, source));
+
+//        return  retrofit.create (RestClient.class).reqOneCompany (companyName);
+
+//        source.flatMap(new Function<AllCompanyModel, Single<AllCompanyModel.DataBean>>() {
+//            @Override
+//            public Single<AllCompanyModel.DataBean> apply(AllCompanyModel allCompanyModel) throws Exception {
+//                return Single.create(new SingleOnSubscribe<AllCompanyModel.DataBean>() {
+//                    @Override
+//                    public void subscribe(SingleEmitter<AllCompanyModel.DataBean> emitter) throws Exception {
+//
+//                    }
+//                });
+//            }
+//        });
+
+
         Observable<AllCompanyModel> source = retrofit.create (RestClient.class).reqOneCompany (companyName);
         return source.concatMap(new Function<AllCompanyModel, ObservableSource<AllCompanyModel.DataBean>>() {
             @Override
@@ -112,6 +140,15 @@ public class AppApiHelper implements ApiHelper {
 
             }
         });
+
+//        .concatMap(new Function<AllCompanyModel, ObservableSource<AllCompanyModel.DataBean>>() {
+//            @Override
+//            public ObservableSource<AllCompanyModel.DataBean> apply(AllCompanyModel allCompanyModel) throws Exception {
+//                return Observable.fromIterable(allCompanyModel.getData())
+//                        .retryWhen (throwableObservable -> mUtils.retryOnErrorGetData (throwableObservable, source));
+//
+//            }
+//        });
     }
 
     @Override
@@ -119,6 +156,58 @@ public class AppApiHelper implements ApiHelper {
         Observable<OneCompanySearchModel> source = retrofit.create (RestClient.class).reqOneCompanySearch (companyName);
         return source.retryWhen (throwableObservable -> mUtils.retryOnErrorGetData (throwableObservable, source));
     }
+
+    @Override
+    public Observable<ServerResponse> reqEndHourMealsOrder(String companyName) {
+        Observable<ServerResponse> source = retrofit.create (RestClient.class).reqEndHourMealsOrder (companyName);
+        return source.retryWhen (throwableObservable -> mUtils.retryOnErrorGetData (throwableObservable, source));
+    }
+
+    @Override
+    public Single<ServerResponse> reqCheckTime() {
+        Single<ServerResponse> source = retrofit.create (RestClient.class).reqCheckTime();
+        return source;
+    }
+
+    @Override
+    public Single<ServerResponse> reqCheckSuggestionTime() {
+        Single<ServerResponse> source = retrofit.create (RestClient.class).reqCheckSuggestionTime();
+        return source;
+    }
+
+    @Override
+    public Observable<CompanyAccessCode> reqAccessCodeValidation(String accessCode) {
+        Observable<CompanyAccessCode> source = retrofit.create (RestClient.class).reqAccessCodeValidation (accessCode);
+        return source.retryWhen (throwableObservable -> mUtils.retryOnErrorGetData (throwableObservable, source));
+    }
+
+    @Override
+    public Observable<CompanySuggestion> reqCheckCompanySuggestionEnable() {
+//        Observable<CompanySuggestion> source = retrofit.create (RestClient.class).reqCheckCompanySuggestionEnable (companyName);
+        Observable<CompanySuggestion> source = retrofit.create (RestClient.class).reqCheckCompanySuggestionEnable ();
+        return source.retryWhen (throwableObservable -> mUtils.retryOnErrorGetData (throwableObservable, source));
+    }
+
+    @Override
+    public Observable<ServerResponse> reqSendSuggestionMeal(String suggestionMealText) {
+        Observable<ServerResponse> source = retrofit.create (RestClient.class).reqSendSuggestionMeal (suggestionMealText);
+        return source.retryWhen (throwableObservable -> mUtils.retryOnErrorGetData (throwableObservable, source));
+    }
+
+    @Override
+    public Observable<CompanyCatalog> reqCompanyCatalog(String companyName) {
+        Observable<CompanyCatalog> source = retrofit.create (RestClient.class).reqCompanyCatalog (companyName);
+        return source.retryWhen (throwableObservable -> mUtils.retryOnErrorGetData (throwableObservable, source));
+    }
+
+    @Override
+    public Observable<CompanyPromotion> reqCompanyPromotion(String companyName) {
+        Observable<CompanyPromotion> source = retrofit.create (RestClient.class).reqCompanyPromotion (companyName);
+        return source.retryWhen (throwableObservable -> mUtils.retryOnErrorGetData (throwableObservable, source));
+//        return source.map(companyPromotion -> companyPromotion.getCompanyEvent())
+//                .retryWhen (throwableObservable -> mUtils.retryOnErrorGetData (throwableObservable, source));
+    }
+
 
 //    @Override
 //    public Observable<ServerResponse> reqSendUserOrderToCompany(String totalMealsPrices,

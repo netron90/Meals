@@ -3,14 +3,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.user_order.NoOrderFragment">
+    tools:context=".ui.user_order.NoOrderFragment"
+    android:background="@color/colorBlackLight">
 
     <!-- TODO: Update blank fragment layout -->
     <ImageView
         android:id="@+id/logo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/logo"
+        android:src="@drawable/meals_logo_no_shadow"
         android:layout_centerInParent="true"/>
 
     <TextView

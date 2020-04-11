@@ -31,7 +31,7 @@ public class SearchCompanyPresenter<V extends SearchCompanyMvpView> extends Base
                             }
                         }else{
                             if(getView() != null){
-                                getView().onFoundOneCOmpanySuccess(oneCompanySearchModel);
+                                getView().onFoundOneCompanySuccess(oneCompanySearchModel.getData());
                             }
                         }
 
@@ -44,3 +44,4 @@ public class SearchCompanyPresenter<V extends SearchCompanyMvpView> extends Base
                 });
     }
 }
+

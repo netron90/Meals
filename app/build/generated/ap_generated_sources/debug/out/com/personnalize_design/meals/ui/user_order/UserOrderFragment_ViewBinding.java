@@ -24,6 +24,7 @@ public class UserOrderFragment_ViewBinding implements Unbinder {
     target.todayDate = Utils.findRequiredViewAsType(source, R.id.todayDate, "field 'todayDate'", TextView.class);
     target.recyclerView = Utils.findRequiredViewAsType(source, R.id.recyclerView, "field 'recyclerView'", RecyclerView.class);
     target.explanationUserOrder = Utils.findRequiredViewAsType(source, R.id.explanationUserOrder, "field 'explanationUserOrder'", TextView.class);
+    target.companyName = Utils.findRequiredViewAsType(source, R.id.companyName, "field 'companyName'", TextView.class);
   }
 
   @Override
@@ -37,5 +38,6 @@ public class UserOrderFragment_ViewBinding implements Unbinder {
     target.todayDate = null;
     target.recyclerView = null;
     target.explanationUserOrder = null;
+    target.companyName = null;
   }
 }

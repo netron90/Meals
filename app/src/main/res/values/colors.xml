@@ -10,6 +10,8 @@
     <color name="colorBlack">#9C131313</color>
     <color name="colorSlight">#646464</color>
     <color name="colorBlackLight">#D5D5D5</color>
+    <color name="colorBlackLightTransparent">#34494949</color>
+    <color name="sendClearBtn">#C1C1C1</color>
 
 
     <color name="gradientBlack">#A1727272</color>

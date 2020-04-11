@@ -15,6 +15,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
@@ -103,6 +104,9 @@ public class DayMenuFragment extends BaseFragment implements DayMenuMvpView {
     @Inject
     public DayMenuPresenter<DayMenuFragment> mPresenter;
 
+    @BindView(R.id.progressBar)
+    public ProgressBar progressBar;
+
     private OnFloatingActionListener mListener;
 
     public DayMenuFragment() {
@@ -144,7 +148,7 @@ public class DayMenuFragment extends BaseFragment implements DayMenuMvpView {
         View view = inflater.inflate(R.layout.fragment_day_menu, container, false);
         setUp(view);
 
-
+        //progressBar.setVisibility(View.VISIBLE);
         return view;
     }
 
@@ -167,18 +171,31 @@ public class DayMenuFragment extends BaseFragment implements DayMenuMvpView {
         });
         mainMealSelectedModel = new MainMealSelectedModel();
 
+        progressBar.setVisibility(View.VISIBLE);
         //Check Connection State
         if(isNetworkAvailable())
         {
             if(mPresenter.getDataManager().isSearchFragmentEnable()){
                 //TODO: MAKE REQUEST TO GET ONE COMPANY DATA FROM SERVER
-                Bundle bundle = new Bundle();
+                Bundle bundle = getArguments();
                 String companyName = bundle.getString("companyName");
+                Log.d("ONE COMPANY SEARCH", "One company search name: " + companyName);
                 mPresenter.getOneCompany(companyName);
+                mPresenter.getDataManager().setSearchFragmentEnable(false);
+
             }else{
                 //TODO: MAKE REQUEST TO GET DATA FROM SERVER
+                Log.d("ONE COMPANY SEARCH", "No company to search. Default action. Company search name: " + companyName);
+                mPresenter.getDataManager().setSearchFragmentEnable(false);
                 mPresenter.menuDayRequest();
             }
+
+            //TODO: MAKE REQUEST TO GET ONE COMPANY DATA FROM SERVER
+//            Bundle bundle = getArguments();
+//            String companyName = bundle.getString("companyName");
+//            Log.d("ONE COMPANY SEARCH", "One company search name: " + companyName);
+//            mPresenter.getOneCompany(companyName);
+           // mPresenter.getDataManager().setSearchFragmentEnable(false);
 
         }else{
             //TODO: TELL USER TO TURN ON CONNECTION AND REFRESH PAGE
@@ -223,12 +240,17 @@ public class DayMenuFragment extends BaseFragment implements DayMenuMvpView {
 
     @Override
     public void setTodayDateMenu(TodayDateModel todayDateMenu) {
-        swipeRefreshLayout.setRefreshing(false);
-        todayDate.setText(todayDateMenu.getTodayDate());
+        progressBar.setVisibility(View.GONE);
+        if(mListener != null){
+            swipeRefreshLayout.setRefreshing(false);
+            todayDate.setText(todayDateMenu.getTodayDate());
+        }
+
     }
 
     @Override
     public void getAllCompanyData(List<AllCompanyModel.DataBean> allCompanyList, int tyOfFragmentTOShow) {
+
 
 
         if(tyOfFragmentTOShow == 0){
@@ -239,24 +261,27 @@ public class DayMenuFragment extends BaseFragment implements DayMenuMvpView {
             //IF ALL LIST HAS ONE ITEM SHOW ALL OTHER COMPANY MENU
 
 
+            if(mListener != null){
+                companyName.setText(allCompanyList.get(0).getUsername());
+                GlideApp.with(getContext())
+                        .load(allCompanyList.get(0).getMainMealImg())
+                        .placeholder(R.drawable.meals_logo_v2)
+                        .centerCrop()
+                        .into(mainMealImg);
+                mainMealName.setText(allCompanyList.get(0).getMainMealName());
+                mainMealPrice.setText(allCompanyList.get(0).getMainMealPrice());
+                floatingActionButton.setVisibility(View.VISIBLE);
 
-            companyName.setText(allCompanyList.get(0).getUsername());
-            GlideApp.with(getContext())
-                    .load(BASE_URL+allCompanyList.get(0).getMainMealImg())
-                    .placeholder(R.drawable.logo)
-                    .centerCrop()
-                    .into(mainMealImg);
-            mainMealName.setText(allCompanyList.get(0).getMainMealName());
-            mainMealPrice.setText(allCompanyList.get(0).getMainMealPrice());
-            floatingActionButton.setVisibility(View.VISIBLE);
+                mPresenter.getOtherMenuCompany(allCompanyList.get(0).getUsername(), allCompanyList.get(0).getCoverImage(), allCompanyList.get(0).getLivraisonPrice());
 
-            mPresenter.getOtherMenuCompany(allCompanyList.get(0).getUsername(), allCompanyList.get(0).getCoverImagePath(), allCompanyList.get(0).getLivraisonPrice());
+                setUpMainMealSelectedModel(allCompanyList);
+            }
 
-            setUpMainMealSelectedModel(allCompanyList);
+
 
         }else{
             //IF LIST CONTAINS MORE THAN ONE ELEMENT, SHOW THIS MAIN MEAL
-
+            floatingActionButton.setVisibility(View.VISIBLE);
             setUpMainMealBlock(allCompanyList);
 
         }
@@ -268,7 +293,7 @@ public class DayMenuFragment extends BaseFragment implements DayMenuMvpView {
         mainMealSelectedModel.setMainMealImage(allCompanyList.get(0).getMainMealImg());
         mainMealSelectedModel.setMainMealName(allCompanyList.get(0).getMainMealName());
         mainMealSelectedModel.setMainMealPrice(allCompanyList.get(0).getMainMealPrice());
-        mainMealSelectedModel.setCompanyCoverImage(allCompanyList.get(0).getCoverImagePath());
+        mainMealSelectedModel.setCompanyCoverImage(allCompanyList.get(0).getCoverImage());
         mainMealSelectedModel.setCompanyDeliveryPrice(allCompanyList.get(0).getLivraisonPrice());
         Log.d("COVER IMG PATH", "LivraisonPrice: " + allCompanyList.get(0).getLivraisonPrice());
     }
@@ -276,27 +301,27 @@ public class DayMenuFragment extends BaseFragment implements DayMenuMvpView {
     @NotNull
     private void setUpMainMealBlock(List<AllCompanyModel.DataBean> allCompanyList) {
 
-        companyName.setText(allCompanyList.get(0).getUsername());
-        GlideApp.with(getContext())
-                .load(BASE_URL+allCompanyList.get(0).getMainMealImg())
-                .placeholder(R.drawable.logo)
-                .centerCrop().into(mainMealImg);
-        mainMealName.setText(allCompanyList.get(0).getMainMealName());
-        mainMealPrice.setText(allCompanyList.get(0).getMainMealPrice());
+//        progressBar.setVisibility(View.GONE);
+        if(mListener != null){
+            companyName.setText(allCompanyList.get(0).getUsername());
+            GlideApp.with(getContext())
+                    .load(allCompanyList.get(0).getMainMealImg())
+                    .placeholder(R.drawable.meals_logo_v2)
+                    .centerCrop().into(mainMealImg);
+            mainMealName.setText(allCompanyList.get(0).getMainMealName());
+            mainMealPrice.setText(allCompanyList.get(0).getMainMealPrice());
 
-       setUpMainMealSelectedModel(allCompanyList);
+            setUpMainMealSelectedModel(allCompanyList);
 
-        List<AllCompanyModel.DataBean> tempRandomList;
-        tempRandomList = allCompanyList;
-        tempRandomList.remove(0);
-        Collections.shuffle(tempRandomList);
-
-
-        setUpDiscreteScrollView(tempRandomList);
-
+            List<AllCompanyModel.DataBean> tempRandomList;
+            tempRandomList = allCompanyList;
+            tempRandomList.remove(0);
+            Collections.shuffle(tempRandomList);
 
 
+            setUpDiscreteScrollView(tempRandomList);
 
+        }
 
     }
 
@@ -305,31 +330,40 @@ public class DayMenuFragment extends BaseFragment implements DayMenuMvpView {
 
         if(isOtherMenuSet)
         {
-            otherMenuToday.setText(getString(R.string.no_other_menu));
+            if(mListener != null){
+                otherMenuToday.setText(getString(R.string.no_other_menu));
+            }
         }else{
-            otherMenuToday.setText(getString(R.string.other_menu));
+            if(this.mListener != null){
+                otherMenuToday.setText(getString(R.string.other_menu));
 //                Log.d("OTHER MENU FRAGMENT", "Other Menu Today Text: " + otherMenuToday.getText());
 //            List<OtherDayMenuModel.DataBean.OtherMenuBean> tempRandomList;
 //            Collections.shuffle(otherDayMenuList);
 //            tempRandomList = otherDayMenuList;
-            //Log.d("OTHER MENU FRAGMENT", "Other Menu Listt: " + tempRandomList.size());
-            discreteScrollView.setAdapter(new OtherMealsAdapter(otherDayMenuList, getContext(), companyCoverImage, deliveryPrice));
-            discreteScrollView.setSlideOnFling(true);
-            discreteScrollView.setItemTransformer(new ScaleTransformer.Builder()
-                    .setMaxScale(1.05f)
-                    .setMinScale(0.8f)
-                    .setPivotX(Pivot.X.CENTER) // CENTER is a default one
-                    .setPivotY(Pivot.Y.BOTTOM) // CENTER is a default one
-                    .build());
+                //Log.d("OTHER MENU FRAGMENT", "Other Menu Listt: " + tempRandomList.size());
+                discreteScrollView.setAdapter(new OtherMealsAdapter(otherDayMenuList, getContext(), companyCoverImage, deliveryPrice));
+                discreteScrollView.setSlideOnFling(true);
+                discreteScrollView.setItemTransformer(new ScaleTransformer.Builder()
+                        .setMaxScale(1.05f)
+                        .setMinScale(0.8f)
+                        .setPivotX(Pivot.X.CENTER) // CENTER is a default one
+                        .setPivotY(Pivot.Y.BOTTOM) // CENTER is a default one
+                        .build());
+            }
+
         }
 
 
     }
 
+    @Override
+    public void onErrorOccured() {
+        changeFragment(new ErrorFragment());
+    }
+
     private void setUpDiscreteScrollView(List<AllCompanyModel.DataBean> allCompanyList) {
 
-
-
+        if(mListener != null){
             otherMenuToday.setText(getString(R.string.other_menu));
             Log.d("OTHER MENU FRAGMENT", "Other Main Meal Listt: " + allCompanyList.size());
             discreteScrollView.setAdapter(new MainMealsAdapter(allCompanyList, getContext()));
@@ -340,10 +374,20 @@ public class DayMenuFragment extends BaseFragment implements DayMenuMvpView {
                     .setPivotX(Pivot.X.CENTER) // CENTER is a default one
                     .setPivotY(Pivot.Y.BOTTOM) // CENTER is a default one
                     .build());
+        }
+
 
 
 
     }
+
+
+
+    //    @Override
+//    public void onStop() {
+//        super.onStop();
+//        mListener = null;
+//    }
 
     /**
      * This interface must be implemented by activities that contain this

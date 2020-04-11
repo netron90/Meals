@@ -16,7 +16,7 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="error_factory_msg">Aucun fournisseur n\'a été trouvé.   Pour proposer vos repas via cette application mobile rendez-vous sur</string>
+    <string name="error_factory_msg">Aucun fournisseur n\'a été trouvé.   Pour proposer vos repas via cette application mobile rendez-vous sur http://p-meals.herokuapp.com</string>
     <string name="choose_menu_quantity">Définir les quantités des menus</string>
     <string name="accompagnements">ACCOMPAGNEMENTS</string>
     <string name="no_add_on">Aucun autre menu d\'accompagnement pour cette compagnie</string>
@@ -36,6 +36,7 @@
     <string name="order_faillure_sent">Nos serveurs sont indisponible en ce moment. Veuillez réessayer dans quelques minutes</string>
     <string name="deliveryNotAvailableText">Nous vous expliquerons comment passer votre commande dans l\'étape suivante</string>
     <string name="error_occured">Une erreur est survenue. Vérifiez votre connexion internet et réessayez plus tard.</string>
+    <string name="error_occured_v2">Une erreur est survenue. Veuillez réessayez plus tard.</string>
     <string name="order_of">Commande du</string>
     <string name="order_toolbar_title">Ma Commande</string>
     <string name="explanation_text1">Veuillez spécifier votre commande à: </string>
@@ -45,7 +46,68 @@
     <string name="search_toolbar_title">Rechercher</string>
     <string name="no_order">Aucune commande pour l\'instant.</string>
     <string name="start_my_order">Lancer ma commande</string>
-    <string name="id_confirm_text">Veuillez présenter cet écran lors de la réception de votre commande pour confirmer votre identité</string>
+    <string name="id_confirm_text">Veuillez présenter cet écran lors de la réception de votre commande pour confirmer votre identité.</string>
     <string name="search_hint">Rechercher un fournisseur</string>
     <string name="nothing_to_show">Rien à afficher</string>
+    <string name="all_supplier">Fournisseurs</string>
+    <string name="user_meal_order_exist">Vous avez déjà effectué une commande pour ce jour.</string>
+    <string name="end_meal_order_message">Désolé. La compagnie n\'accepte plus de commande à cette heure.</string>
+
+    <string name="channel_id">meal</string>
+    <string name="channel_name">meal_channel</string>
+    <string name="channel_description">meal order expired</string>
+    <string name="validity_meal_order_title_notification">Votre Commande</string>
+    <string name="validity_meal_order_body_notification">La duée de validité de votre précédente commande vient d\'expirer. Vous pouvez à nouveau passer d\'autres commandes.</string>
+    <string name="your_order">Finalisation</string>
+    <string name="finalize_your_order_text">Nous vous expliquerons comment finaliser votre commande dans la prochaine étape</string>
+    <string name="explanation_text5">Contact du fournisseur:</string>
+    <string name="it_is_time">C\'est l\'heure de commander</string>
+    <string name="it_is_time_suggestion">Vos suggestions de repas</string>
+    <string name="it_is_time_suggestion_text">Proposez nous des suggestions de repas que vous auriez aimé prendre pour le lendemain.</string>
+    <string name="it_is_time_text">Découvrez les nouveaux menus de ce jour et commandez.</string>
+
+    <string name="rate_dialog_title">Evaluez-nous</string>
+    <string name="rate_dialog_message">Si vous aimez cette application, cela vous dérangerait-il de prendre un moment pour la noter? Cela ne prendra pas plus d\'une minute. Merci pour votre aide!</string>
+    <string name="rate_dialog_ok">Évaluez maintenant</string>
+    <string name="rate_dialog_cancel">Plus tard</string>
+    <string name="rate_dialog_no">Non, merci</string>
+    <string name="security_code_text">Veuillez saisir votre code d\'accès ou abonnez-vous sur http://p-meals.herokuapp.com</string>
+    <string name="access_code">Code d\'acces</string>
+    <string name="start_verification">Démarrer la vérification</string>
+    <string name="field_empty">Veuillez remplir le champ</string>
+    <string name="incorrect_access_code">Aucune correspondance trouvée. Connectez-vous à votre compte Meals ou abonnez-vous sur http://p-meals.herokuapp.com</string>
+    <string name="day_menu">Découvrir les menus du jour</string>
+    <string name="no_matching_result">Aucune correspondance</string>
+    <string name="catalog">Catalogue</string>
+    <string name="suggestions">Suggestion</string>
+    <string name="promotion">Promotion</string>
+    <string name="suggestion_toolbar_title">Suggestions</string>
+    <string name="your_suggestion">Votre suggestion de repas</string>
+    <string name="plan_name_text">Désolé, cette compagnie n\'a pas souscrit à l\'option de suggestion de repas</string>
+    <string name="not_time_suggestion">Désolé, vous ne pouvez pas encore effectuer de suggestion de repas. Nous vous informerons au bon moment</string>
+    <string name="suggestion_text_indication">Aidez les compagnies à vous satisfaire en leur proposant des suggestions de repas qui vous plairont</string>
+    <string name="suggest_edit_text_empty">Veuillez faire des propositions de repas</string>
+    <string name="error_occured_suggestion">Une erreur est survenue. Veuillez réessayer plus tard</string>
+    <string name="suggestion_request_send_successfully">Votre suggestion a bien été envoyée.</string>
+    <string name="catalog_toolbar_title">Catalogue</string>
+    <string name="contact_company">Veuillez contacter la compagnie pour passer votre commande.</string>
+    <string name="company_username">Nom de la compagnie:</string>
+    <string name="home_toolbar_title">Accueil</string>
+    <string name="catalog_icon">f518</string>
+    <string name="bullhorn_icon">f0a1</string>
+    <string name="event_detail">Contactez la sociéte pour plus d\'infos sur l\'offre</string>
+    <string name="event_date_textstart">Du</string>
+    <string name="event_date_textend">au</string>
+    <string name="promotion_toolbar_title">Promotions</string>
+    <string name="no_promotion_text">Désolé, cette compagnie n\'a pas souscrit à l\'option de promotion de repas</string>
+    <string name="suggestion_not_possible">Vous ne pouvez plus effectuer de suggestion aujourd\'hui</string>
+    <string name="subscription_end">Votre abonnement est expiré. Réabonnez-vous sur http://p-meals.herokuapp.com pour profiter des avantages de Meals</string>
+    <string name="subscription_end_title">Abonnement terminé</string>
+    <string name="jour_de_prestation">Jour de prestation</string>
+    <string name="voir_le_catalogue">Catalogue</string>
+    <string name="commander">Commandez</string>
+    <string name="internet_acces_code">Vérifiez votre connexion internet et entrez votre code d\'accès</string>
+    <string name="Catalogue">Catalogue</string>
+    <string name="company_catalog_not_defined">La compagnie sélectionnée n\'a pas encore définir son catalogue</string>
+    <string name="company_not_work">Désolé, cette compagnie ne travail pas aujourd\'hui.</string>
 </resources>

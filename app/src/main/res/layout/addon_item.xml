@@ -20,7 +20,7 @@
             android:id="@+id/otherMenu"
             android:layout_width="160dp"
             android:layout_height="160dp"
-            android:src="@drawable/logo"
+            android:src="@drawable/meals_logo_no_shadow"
             android:scaleType="centerCrop"
             />
         <RelativeLayout

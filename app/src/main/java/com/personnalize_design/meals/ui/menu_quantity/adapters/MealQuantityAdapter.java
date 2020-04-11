@@ -55,8 +55,8 @@ public class MealQuantityAdapter extends RecyclerView.Adapter<MealQuantityAdapte
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
         GlideApp.with(context)
-                .load(BASE_URL+list.get(position).getMainMealImage())
-                .placeholder(R.drawable.logo)
+                .load(list.get(position).getMainMealImage())
+                .placeholder(R.drawable.meals_logo_v2)
                 .centerCrop().into(holder.mealSelectedImg);
     }
 

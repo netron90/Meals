@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.suggestion.SuggestionFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:id="@+id/rootContainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ProgressBar
+                android:id="@+id/progressBar"
+                style="?android:attr/progressBarStyleLarge"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:indeterminate="true"
+                android:maxHeight="50dip"
+                android:minHeight="50dip"
+                android:layout_centerInParent="true"
+                android:visibility="gone"
+                android:layout_below="@id/suggestionImage"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/circular_progressbar"
+                />
+            <ImageView
+                android:id="@+id/suggestionImage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/suggestion"
+                android:scaleType="centerCrop"/>
+
+            <TextView
+                android:id="@+id/noSubscription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="50dp"
+                android:gravity="center"
+                android:text=""
+                android:layout_below="@id/progressBar"
+                />
+
+            <RelativeLayout
+                android:visibility="gone"
+                android:id="@+id/suggestionBlock"
+                android:layout_below="@id/noSubscription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <EditText
+                        android:id="@+id/suggestionText"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="90"
+                        android:hint="@string/your_suggestion"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="4dp"
+                        android:background="@drawable/text_border"
+                        android:gravity="center"
+                        />
+                    <RelativeLayout
+                        android:id="@+id/sendSuggestionBtn"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="10"
+                        android:padding="4dp"
+                        android:background="?attr/selectableItemBackground"
+                        android:clickable="true">
+                        <ImageView
+                            android:id="@+id/icon_send"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:src="@drawable/ic_send_black_clear_24dp"
+                            />
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+</FrameLayout>

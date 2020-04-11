@@ -11,18 +11,33 @@
 
     <ProgressBar
         android:id="@+id/progressBar"
-        style="?android:attr/progressBarStyleHorizontal"
+        style="?android:attr/progressBarStyleLarge"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:indeterminate="true"
-        android:maxHeight="10dip"
-        android:minHeight="10dip"
+        android:maxHeight="50dip"
+        android:minHeight="50dip"
         android:layout_centerInParent="true"
         android:visibility="gone"
+        android:background="@drawable/circular_progressbar"
         />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginRight="16dp"
+        android:src="@drawable/ic_search_black_24dp"
+        app:fab_size="normal"
+        android:id="@+id/searchOneCompany"/>
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="8dp"
         android:id="@+id/recyclerView"
         android:orientation="vertical"
         tools:listitem="@layout/item_company_search"

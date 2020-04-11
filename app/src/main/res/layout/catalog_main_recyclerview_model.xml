@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="16dp">
+
+    <TextView
+        android:id="@+id/catalogCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+        android:text="Lunch"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/catalogMealListRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/catalogCategory"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal"
+        tools:listitem="@layout/catalog_meal_list"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        />
+</RelativeLayout>

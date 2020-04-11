@@ -16,11 +16,36 @@
         android:title="@string/restaurant_icon"
         app:showAsAction="ifRoom"
         />
+
+<!--    <item-->
+<!--        android:id="@+id/catalog"-->
+<!--        android:enabled="true"-->
+<!--        android:icon="@drawable/catalog_icon"-->
+<!--        android:title="@string/catalog"-->
+<!--        app:showAsAction="ifRoom"-->
+<!--        />-->
+
     <item
-        android:id="@+id/search"
+        android:id="@+id/suggestion"
         android:enabled="true"
-        android:icon="@drawable/ic_search_black_24dp"
-        android:title="@string/search_icon"
+        android:icon="@drawable/ic_help_outline_black_24dp"
+        android:title="@string/suggestions"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/promotion"
+        android:enabled="true"
+        android:icon="@drawable/ic_bullhorn_solid"
+        android:title="@string/suggestions"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/suppliers"
+        android:enabled="true"
+        android:icon="@drawable/ic_location_city_black_24dp"
+        android:title="@string/all_supplier"
         app:showAsAction="ifRoom"
         />
 </menu>

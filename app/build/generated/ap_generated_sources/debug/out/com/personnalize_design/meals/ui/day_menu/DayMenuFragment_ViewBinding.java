@@ -3,6 +3,7 @@ package com.personnalize_design.meals.ui.day_menu;
 
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 import androidx.annotation.CallSuper;
@@ -20,7 +21,7 @@ import java.lang.Override;
 public class DayMenuFragment_ViewBinding implements Unbinder {
   private DayMenuFragment target;
 
-  private View view7f08009e;
+  private View view7f0800b0;
 
   @UiThread
   public DayMenuFragment_ViewBinding(final DayMenuFragment target, View source) {
@@ -36,7 +37,7 @@ public class DayMenuFragment_ViewBinding implements Unbinder {
     target.backgroundMainMeal = Utils.findRequiredViewAsType(source, R.id.backgroundMainMeal, "field 'backgroundMainMeal'", RelativeLayout.class);
     view = Utils.findRequiredView(source, R.id.floatingButton, "field 'floatingActionButton' and method 'fabBtnPressed'");
     target.floatingActionButton = Utils.castView(view, R.id.floatingButton, "field 'floatingActionButton'", FloatingActionButton.class);
-    view7f08009e = view;
+    view7f0800b0 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -45,6 +46,7 @@ public class DayMenuFragment_ViewBinding implements Unbinder {
     });
     target.discreteScrollView = Utils.findRequiredViewAsType(source, R.id.discrete_scroll_view, "field 'discreteScrollView'", DiscreteScrollView.class);
     target.swipeRefreshLayout = Utils.findRequiredViewAsType(source, R.id.swipeRefresh, "field 'swipeRefreshLayout'", SwipeRefreshLayout.class);
+    target.progressBar = Utils.findRequiredViewAsType(source, R.id.progressBar, "field 'progressBar'", ProgressBar.class);
   }
 
   @Override
@@ -64,8 +66,9 @@ public class DayMenuFragment_ViewBinding implements Unbinder {
     target.floatingActionButton = null;
     target.discreteScrollView = null;
     target.swipeRefreshLayout = null;
+    target.progressBar = null;
 
-    view7f08009e.setOnClickListener(null);
-    view7f08009e = null;
+    view7f0800b0.setOnClickListener(null);
+    view7f0800b0 = null;
   }
 }

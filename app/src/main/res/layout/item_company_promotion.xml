@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginRight="16dp"
+    android:layout_marginLeft="16dp">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardUseCompatPadding="true"
+        app:cardElevation="@dimen/cardview_default_elevation"
+        app:cardCornerRadius="@dimen/cardview_default_radius"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/companyNamePromotion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:text="Paf Delice"
+                android:layout_marginTop="12dp"
+                android:layout_marginLeft="16dp"/>
+            <TextView
+                android:id="@+id/eventDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Du"
+                android:layout_alignParentRight="true"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"/>
+            <TextView
+                android:id="@+id/eventTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:layout_marginTop="16dp"
+                android:text=""
+                android:layout_below="@id/companyNamePromotion"
+                android:layout_marginLeft="16dp"/>
+
+            <TextView
+                android:id="@+id/eventDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/eventTitle"
+                android:layout_marginTop="16dp"
+                android:text="Recevez 50% de reduction sur tous vos achats"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/eventDescription"
+
+                android:layout_marginTop="16dp"
+                android:background="@color/colorBlackLight">
+                <TextView
+                    android:id="@+id/eventDetail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/event_detail"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:padding="12dp"/>
+            </RelativeLayout>
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

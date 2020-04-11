@@ -47,7 +47,7 @@ public class AppDbHelper implements DbHelper {
 
     @Override
     public Completable deleteAllUserOrderMealList() {
-        return db.userOrderDao().deleteAllUserOrder();
+        return db.userOrderDao().deleteAllUserOrderMealList();
     }
 
 

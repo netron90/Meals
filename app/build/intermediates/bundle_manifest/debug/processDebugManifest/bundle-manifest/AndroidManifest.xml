@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.personnalize_design.meals"
-    android:versionCode="1"
+    android:versionCode="2"
     android:versionName="1.0" >
 
     <uses-sdk
@@ -11,18 +11,30 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
 
+    <supports-screens
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="false"
+        android:xlargeScreens="true" />
+
     <application
         android:name="com.personnalize_design.meals.di.App"
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/ic_launcher_icon"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.personnalize_design.meals.ui.search.SearchCompany" >
+        <activity android:name="com.personnalize_design.meals.ui.catalog.CatalogActivity" />
+        <activity
+            android:name="com.personnalize_design.meals.ui.security.SecurityActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.personnalize_design.meals.ui.search.SearchCompany"
+            android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.SEARCH" />
             </intent-filter>
@@ -54,9 +66,30 @@
             </intent-filter>
         </activity>
 
+        <service android:name="com.personnalize_design.meals.services.CheckMealBillTimeService" />
+        <service android:name="com.personnalize_design.meals.services.DeleteBillService" />
+        <service android:name="com.personnalize_design.meals.services.NotifyUserService" />
+
+        <receiver android:name="com.personnalize_design.meals.broadcasts.StartNotifyUserService" >
+            <intent-filter>
+                <action android:name="com.personnalize_design.meals.START_NOTIFY_USER_SERVICE.broadcast" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.personnalize_design.meals.broadcasts.DeleteUserOrderMealBroadcast" >
+            <intent-filter>
+                <action android:name="com.personnalize_design.meals.TIME_TO_DELETE_USER_ORDER.broadcast" />
+            </intent-filter>
+        </receiver>
+
         <service
             android:name="androidx.room.MultiInstanceInvalidationService"
             android:exported="false" />
+
+        <provider
+            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+            android:authorities="com.personnalize_design.meals.lifecycle-process"
+            android:exported="false"
+            android:multiprocess="true" />
     </application>
 
 </manifest>

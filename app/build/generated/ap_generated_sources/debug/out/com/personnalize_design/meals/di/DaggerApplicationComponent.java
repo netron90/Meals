@@ -8,6 +8,11 @@ import com.personnalize_design.meals.data.db.MealsDatabase;
 import com.personnalize_design.meals.data.preferences.PreferenceHelper;
 import com.personnalize_design.meals.ui.base.BaseActivity;
 import com.personnalize_design.meals.ui.base.BaseActivity_MembersInjector;
+import com.personnalize_design.meals.ui.catalog.CatalogActivity;
+import com.personnalize_design.meals.ui.catalog.CatalogActivity_MembersInjector;
+import com.personnalize_design.meals.ui.catalog.CatalogFragment;
+import com.personnalize_design.meals.ui.catalog.CatalogFragment_MembersInjector;
+import com.personnalize_design.meals.ui.catalog.presenters.CatalogPresenter;
 import com.personnalize_design.meals.ui.day_menu.DayMenuFragment;
 import com.personnalize_design.meals.ui.day_menu.DayMenuFragment_MembersInjector;
 import com.personnalize_design.meals.ui.day_menu.MainScreenActivity;
@@ -29,12 +34,24 @@ import com.personnalize_design.meals.ui.meal_addition.presenter.AccompagnementSc
 import com.personnalize_design.meals.ui.menu_quantity.MenuQuantityActivity;
 import com.personnalize_design.meals.ui.menu_quantity.MenuQuantityActivity_MembersInjector;
 import com.personnalize_design.meals.ui.menu_quantity.presenter.MenuQuantityPresenter;
+import com.personnalize_design.meals.ui.promotion.NoPromotionFragment;
+import com.personnalize_design.meals.ui.promotion.NoPromotionFragment_MembersInjector;
+import com.personnalize_design.meals.ui.promotion.PromotionFragment;
+import com.personnalize_design.meals.ui.promotion.PromotionFragment_MembersInjector;
+import com.personnalize_design.meals.ui.promotion.presenter.NoPromotionPresenter;
+import com.personnalize_design.meals.ui.promotion.presenter.PromotionPresenter;
 import com.personnalize_design.meals.ui.search.SearchCompany;
 import com.personnalize_design.meals.ui.search.SearchCompany_MembersInjector;
 import com.personnalize_design.meals.ui.search.SearchFragment;
 import com.personnalize_design.meals.ui.search.SearchFragment_MembersInjector;
 import com.personnalize_design.meals.ui.search.presenter.SearchCompanyPresenter;
 import com.personnalize_design.meals.ui.search.presenter.SearchFragmentPresenter;
+import com.personnalize_design.meals.ui.security.SecurityActivity;
+import com.personnalize_design.meals.ui.security.SecurityActivity_MembersInjector;
+import com.personnalize_design.meals.ui.security.presenter.SecurityPresenter;
+import com.personnalize_design.meals.ui.suggestion.SuggestionFragment;
+import com.personnalize_design.meals.ui.suggestion.SuggestionFragment_MembersInjector;
+import com.personnalize_design.meals.ui.suggestion.presenters.SuggestionPresenter;
 import com.personnalize_design.meals.ui.user_order.NoOrderFragment;
 import com.personnalize_design.meals.ui.user_order.NoOrderFragment_MembersInjector;
 import com.personnalize_design.meals.ui.user_order.UserOrderFragment;
@@ -109,6 +126,24 @@ public final class DaggerApplicationComponent implements ApplicationComponent {
   private SearchCompanyPresenter<SearchCompany> getSearchCompanyPresenterOfSearchCompany() {
     return new SearchCompanyPresenter<SearchCompany>(getDataManager(), ApplicationModule_ProvideCompositeDisposableFactory.provideCompositeDisposable(applicationModule));}
 
+  private SecurityPresenter<SecurityActivity> getSecurityPresenterOfSecurityActivity() {
+    return new SecurityPresenter<SecurityActivity>(getDataManager(), ApplicationModule_ProvideCompositeDisposableFactory.provideCompositeDisposable(applicationModule));}
+
+  private SuggestionPresenter<SuggestionFragment> getSuggestionPresenterOfSuggestionFragment() {
+    return new SuggestionPresenter<SuggestionFragment>(getDataManager(), ApplicationModule_ProvideCompositeDisposableFactory.provideCompositeDisposable(applicationModule));}
+
+  private CatalogPresenter<CatalogFragment> getCatalogPresenterOfCatalogFragment() {
+    return new CatalogPresenter<CatalogFragment>(getDataManager(), ApplicationModule_ProvideCompositeDisposableFactory.provideCompositeDisposable(applicationModule));}
+
+  private CatalogPresenter<CatalogActivity> getCatalogPresenterOfCatalogActivity() {
+    return new CatalogPresenter<CatalogActivity>(getDataManager(), ApplicationModule_ProvideCompositeDisposableFactory.provideCompositeDisposable(applicationModule));}
+
+  private PromotionPresenter<PromotionFragment> getPromotionPresenterOfPromotionFragment() {
+    return new PromotionPresenter<PromotionFragment>(getDataManager(), ApplicationModule_ProvideCompositeDisposableFactory.provideCompositeDisposable(applicationModule));}
+
+  private NoPromotionPresenter<NoPromotionFragment> getNoPromotionPresenterOfNoPromotionFragment() {
+    return new NoPromotionPresenter<NoPromotionFragment>(getDataManager(), ApplicationModule_ProvideCompositeDisposableFactory.provideCompositeDisposable(applicationModule));}
+
   @SuppressWarnings("unchecked")
   private void initialize(final ApplicationModule applicationModuleParam) {
     this.provideContextProvider = DoubleCheck.provider(ApplicationModule_ProvideContextFactory.create(applicationModuleParam));
@@ -163,6 +198,30 @@ public final class DaggerApplicationComponent implements ApplicationComponent {
   @Override
   public void inject(SearchCompany searchCompany) {
     injectSearchCompany(searchCompany);}
+
+  @Override
+  public void inject(SecurityActivity securityActivity) {
+    injectSecurityActivity(securityActivity);}
+
+  @Override
+  public void inject(SuggestionFragment suggestionFragment) {
+    injectSuggestionFragment(suggestionFragment);}
+
+  @Override
+  public void inject(CatalogFragment catalogFragment) {
+    injectCatalogFragment(catalogFragment);}
+
+  @Override
+  public void inject(CatalogActivity catalogActivity) {
+    injectCatalogActivity(catalogActivity);}
+
+  @Override
+  public void inject(PromotionFragment promotionFragment) {
+    injectPromotionFragment(promotionFragment);}
+
+  @Override
+  public void inject(NoPromotionFragment noPromotionFragment) {
+    injectNoPromotionFragment(noPromotionFragment);}
 
   private BaseActivity injectBaseActivity(BaseActivity instance) {
     BaseActivity_MembersInjector.injectContext(instance, provideContextProvider.get());
@@ -226,6 +285,38 @@ public final class DaggerApplicationComponent implements ApplicationComponent {
   private SearchCompany injectSearchCompany(SearchCompany instance) {
     BaseActivity_MembersInjector.injectContext(instance, provideContextProvider.get());
     SearchCompany_MembersInjector.injectMPresenter(instance, getSearchCompanyPresenterOfSearchCompany());
+    return instance;
+  }
+
+  private SecurityActivity injectSecurityActivity(SecurityActivity instance) {
+    BaseActivity_MembersInjector.injectContext(instance, provideContextProvider.get());
+    SecurityActivity_MembersInjector.injectMPresenter(instance, getSecurityPresenterOfSecurityActivity());
+    return instance;
+  }
+
+  private SuggestionFragment injectSuggestionFragment(SuggestionFragment instance) {
+    SuggestionFragment_MembersInjector.injectMPresenter(instance, getSuggestionPresenterOfSuggestionFragment());
+    return instance;
+  }
+
+  private CatalogFragment injectCatalogFragment(CatalogFragment instance) {
+    CatalogFragment_MembersInjector.injectMPresenter(instance, getCatalogPresenterOfCatalogFragment());
+    return instance;
+  }
+
+  private CatalogActivity injectCatalogActivity(CatalogActivity instance) {
+    BaseActivity_MembersInjector.injectContext(instance, provideContextProvider.get());
+    CatalogActivity_MembersInjector.injectMPresenter(instance, getCatalogPresenterOfCatalogActivity());
+    return instance;
+  }
+
+  private PromotionFragment injectPromotionFragment(PromotionFragment instance) {
+    PromotionFragment_MembersInjector.injectMPresenter(instance, getPromotionPresenterOfPromotionFragment());
+    return instance;
+  }
+
+  private NoPromotionFragment injectNoPromotionFragment(NoPromotionFragment instance) {
+    NoPromotionFragment_MembersInjector.injectMPresenter(instance, getNoPromotionPresenterOfNoPromotionFragment());
     return instance;
   }
 

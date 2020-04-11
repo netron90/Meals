@@ -13,4 +13,6 @@ public interface DayMenuMvpView extends MvpView {
     void getAllCompanyData(List<AllCompanyModel.DataBean> allCompanyList, int tyOfFragmentTOShow);
 
     void getAllOtherMenuCompany(List<OtherDayMenuModel.DataBean.OtherMenuBean> otherDayMenuList, String companyCoverImage, boolean isOtherMenuSet, String deliveryPrice);
+
+    void onErrorOccured();
 }

@@ -18,7 +18,7 @@ import java.lang.Override;
 public class MenuQuantityActivity_ViewBinding implements Unbinder {
   private MenuQuantityActivity target;
 
-  private View view7f080050;
+  private View view7f080052;
 
   @UiThread
   public MenuQuantityActivity_ViewBinding(MenuQuantityActivity target) {
@@ -35,7 +35,7 @@ public class MenuQuantityActivity_ViewBinding implements Unbinder {
     target.recyclerViewBilan = Utils.findRequiredViewAsType(source, R.id.recyclerViewBilan, "field 'recyclerViewBilan'", RecyclerView.class);
     view = Utils.findRequiredView(source, R.id.btnOrderNow, "field 'startOrder' and method 'showBilanMealDialogBox'");
     target.startOrder = Utils.castView(view, R.id.btnOrderNow, "field 'startOrder'", Button.class);
-    view7f080050 = view;
+    view7f080052 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -58,7 +58,7 @@ public class MenuQuantityActivity_ViewBinding implements Unbinder {
     target.startOrder = null;
     target.progressBar = null;
 
-    view7f080050.setOnClickListener(null);
-    view7f080050 = null;
+    view7f080052.setOnClickListener(null);
+    view7f080052 = null;
   }
 }

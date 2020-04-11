@@ -7,6 +7,10 @@ import com.personnalize_design.meals.data.model.AddOnMenuModel;
 import com.personnalize_design.meals.data.model.AllCompanyModel;
 import com.personnalize_design.meals.data.model.AllCompanySearch;
 import com.personnalize_design.meals.data.model.BillClientInformation;
+import com.personnalize_design.meals.data.model.CompanyAccessCode;
+import com.personnalize_design.meals.data.model.CompanyCatalog;
+import com.personnalize_design.meals.data.model.CompanyPromotion;
+import com.personnalize_design.meals.data.model.CompanySuggestion;
 import com.personnalize_design.meals.data.model.MainMealSelectedModel;
 import com.personnalize_design.meals.data.model.OneCompanySearchModel;
 import com.personnalize_design.meals.data.model.OtherDayMenuModel;
@@ -98,6 +102,46 @@ public class AppDataManager implements DataManager {
         return apiHelper.reqOneCompanySearch(companyName);
     }
 
+    @Override
+    public Observable<ServerResponse> reqEndHourMealsOrder(String companyName) {
+        return apiHelper.reqEndHourMealsOrder(companyName);
+    }
+
+    @Override
+    public Single<ServerResponse> reqCheckTime() {
+        return apiHelper.reqCheckTime();
+    }
+
+    @Override
+    public Single<ServerResponse> reqCheckSuggestionTime() {
+        return apiHelper.reqCheckSuggestionTime();
+    }
+
+    @Override
+    public Observable<CompanyAccessCode> reqAccessCodeValidation(String accessCode) {
+        return apiHelper.reqAccessCodeValidation(accessCode);
+    }
+
+    @Override
+    public Observable<CompanySuggestion> reqCheckCompanySuggestionEnable() {
+        return apiHelper.reqCheckCompanySuggestionEnable();
+    }
+
+    @Override
+    public Observable<ServerResponse> reqSendSuggestionMeal(String suggestionMealText) {
+        return apiHelper.reqSendSuggestionMeal(suggestionMealText);
+    }
+
+    @Override
+    public Observable<CompanyCatalog> reqCompanyCatalog(String companyName) {
+        return apiHelper.reqCompanyCatalog(companyName);
+    }
+
+    @Override
+    public Observable<CompanyPromotion> reqCompanyPromotion(String companyName) {
+        return apiHelper.reqCompanyPromotion(companyName);
+    }
+
 
 //    @Override
 //    public Observable<ServerResponse> reqSendUserOrderToCompany(String totalMealsPrices, String companyName, String clienName, String clientContact, String clientLocalisation, List<MainMealSelectedModel> listMealSelected) {
@@ -135,6 +179,86 @@ public class AppDataManager implements DataManager {
     }
 
     @Override
+    public void setMealOrderExist(boolean mealOrderExist) {
+        preferenceHelper.setMealOrderExist(mealOrderExist);
+    }
+
+    @Override
+    public boolean isMealOrderExist() {
+        return preferenceHelper.isMealOrderExist();
+    }
+
+    @Override
+    public void setDeleteListUserMeals(boolean state) {
+        preferenceHelper.setDeleteListUserMeals(state);
+    }
+
+    @Override
+    public boolean isDeleteListUserMeals() {
+        return preferenceHelper.isDeleteListUserMeals();
+    }
+
+    @Override
+    public void setServiceCheckOrderTime(boolean valuOrderTime) {
+        preferenceHelper.setServiceCheckOrderTime(valuOrderTime);
+    }
+
+    @Override
+    public boolean isServiceCheckOrderTime() {
+        return preferenceHelper.isServiceCheckOrderTime();
+    }
+
+    @Override
+    public void setCompanyUserName(String companyUserName) {
+        preferenceHelper.setCompanyUserName(companyUserName);
+    }
+
+    @Override
+    public String getCopanyUserName() {
+        return preferenceHelper.getCopanyUserName();
+    }
+
+    @Override
+    public void setCompanyPhoneNumber(String companyPhoneNumber) {
+        preferenceHelper.setCompanyPhoneNumber(companyPhoneNumber);
+    }
+
+    @Override
+    public String getCopanyPhoneNumber() {
+        return preferenceHelper.getCopanyPhoneNumber();
+    }
+
+    @Override
+    public void setSendSuggestion(boolean suggestionValue) {
+        preferenceHelper.setSendSuggestion(suggestionValue);
+    }
+
+    @Override
+    public boolean isSendSuggestionSet() {
+        return preferenceHelper.isSendSuggestionSet();
+    }
+
+    @Override
+    public void setUserAccessCode(String accessCode) {
+        preferenceHelper.setUserAccessCode(accessCode);
+    }
+
+    @Override
+    public String getUserAccessCode() {
+        return preferenceHelper.getUserAccessCode();
+    }
+
+//    @Override
+//    public void setDeleteUserData(boolean state) {
+//        preferenceHelper.setDeleteUserData(state);
+//    }
+//
+//    @Override
+//    public boolean isDeleteUserData() {
+//        return preferenceHelper.isDeleteUserData();
+//    }
+
+    @Override
     public Completable saveUserOrder(UserOrderModel.UserOrder userOrder) {
         return dbHelper.saveUserOrder(userOrder);
     }
@@ -161,7 +285,7 @@ public class AppDataManager implements DataManager {
 
     @Override
     public Completable deleteAllUserOrderMealList() {
-        return deleteAllUserOrderMealList();
+        return dbHelper.deleteAllUserOrderMealList();
     }
 }
 

@@ -1,45 +1,129 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_marginTop="16dp"
-    android:layout_marginLeft="16dp"
-    android:layout_marginRight="16dp">
-    <androidx.cardview.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:cardUseCompatPadding="true"
-        app:cardElevation="@dimen/cardview_default_elevation"
-        app:cardCornerRadius="@dimen/cardview_default_radius">
-        <RelativeLayout
-            android:id="@+id/companyDataBlock"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    app:cardUseCompatPadding="true"
+    app:cardPreventCornerOverlap="false"
+    app:cardElevation="@dimen/cardview_default_elevation"
+    >
+   <RelativeLayout
+       android:id="@+id/cardBlock"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+       <ImageView
+           android:id="@+id/companyImageCover"
+           android:layout_width="match_parent"
+           android:layout_height="220dp"
+           android:src="@drawable/security_pass"
+           android:scaleType="centerCrop"/>
 
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="180dp"
-                android:id="@+id/companyCoverImage"/>
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="180dp"
-                android:background="@color/colorBlack">
+           <RelativeLayout
+               android:id="@+id/companyInfo"
+               android:layout_width="match_parent"
+               android:layout_height="220dp"
+               android:background="@color/cardview_dark_background"
+               android:alpha="0.8"
 
-                <TextView
-                    android:id="@+id/companyName"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="16dp"
-                    android:layout_marginBottom="16dp"
-                    android:layout_alignParentBottom="true"
-                    android:text="MENU PAF DELICE"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
-                    android:textColor="@color/colorWhite"
-                    android:textStyle="bold" />
-            </RelativeLayout>
-        </RelativeLayout>
-    </androidx.cardview.widget.CardView>
+             >
+               <TextView
+                   android:id="@+id/companyName"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="16dp"
+                   android:text="Paf Delice"
+                   android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                   android:textColor="@color/lightWhite"
+                   android:layout_above="@id/companyPhoneNumber"
+                   />
+               <TextView
+                   android:id="@+id/companyPhoneNumber"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_alignParentBottom="true"
+                   android:layout_marginLeft="16dp"
+                   android:layout_marginTop="10dp"
+                   android:text="66008384"
+                   android:layout_marginBottom="16dp"
+                   android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                   android:textColor="@color/colorWhite"
+                   android:textStyle="bold" />
 
-</RelativeLayout>
+               <TextView
+                   android:id="@+id/companyEmail"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_alignParentBottom="true"
+                   android:layout_marginRight="16dp"
+                   android:layout_marginTop="10dp"
+                   android:layout_alignParentRight="true"
+                   android:text="fredyann@gmail.com"
+                   android:layout_marginBottom="16dp"
+                   android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                   android:textColor="@color/colorWhite"
+                   android:textStyle="bold" />
+           </RelativeLayout>
+
+
+
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_below="@id/companyImageCover"
+           android:padding="16dp">
+           <TextView
+               android:id="@+id/jourDePrestation"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textAppearance="@style/TextAppearance.AppCompat.Small"
+               android:textStyle="bold"
+               android:text="@string/jour_de_prestation"/>
+           <androidx.recyclerview.widget.RecyclerView
+               android:id="@+id/recyclerView"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_below="@id/jourDePrestation"
+               android:orientation="horizontal"
+               android:layout_marginTop="16dp"
+               android:layout_marginRight="16dp"
+               tools:listitem="@layout/workin_day_item"
+               app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+           <RelativeLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_below="@id/recyclerView"
+               android:layout_marginTop="16dp">
+               <RelativeLayout
+                   android:id="@+id/orderBtn"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:padding="16dp"
+                   android:background="?attr/selectableItemBackground"
+                   android:clickable="true">
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="@string/commander"/>
+               </RelativeLayout>
+               <RelativeLayout
+                   android:id="@+id/catalogBtn"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:padding="16dp"
+                   android:background="?attr/selectableItemBackground"
+                   android:clickable="true"
+                   android:layout_toRightOf="@id/orderBtn"
+                   android:layout_marginLeft="16dp">
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="@string/voir_le_catalogue"/>
+               </RelativeLayout>
+           </RelativeLayout>
+       </RelativeLayout>
+   </RelativeLayout>
+</androidx.cardview.widget.CardView>

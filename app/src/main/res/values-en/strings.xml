@@ -13,7 +13,7 @@
     <string name="search_icon">Search</string>
 
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="error_factory_msg">No data has been found actualy. If you want to prorpose your meals go to</string>
+    <string name="error_factory_msg">No data has been found actualy. If you want to prorpose your meals go to http://p-meals.herokuapp.com</string>
     <string name="choose_menu_quantity">Choose menus quantities</string>
     <string name="accompagnements">ADDITIONS MEALS</string>
     <string name="no_add_on">No additionnal meals for this company</string>
@@ -33,6 +33,7 @@
     <string name="order_faillure_sent">Our server are not available for this moment. Please try again i few minute</string>
     <string name="deliveryNotAvailableText">We will tell you how to pass your order in the next step</string>
     <string name="error_occured">An error has occured. Please, check your network connexion and try again.</string>
+    <string name="error_occured_v2">An error has occured. Please, try again later.</string>
     <string name="order_of">Order Date:</string>
     <string name="order_toolbar_title">My Order</string>
     <string name="explanation_text1">Please specify your order: </string>
@@ -45,4 +46,66 @@
     <string name="id_confirm_text">Please, show this screen when you\'re getting your order to confirm your identity.</string>
     <string name="search_hint">Search meals supplier</string>
     <string name="nothing_to_show">Nothing to show</string>
+    <string name="all_supplier">All suppliers</string>
+    <string name="user_meal_order_exist">You have already make an order for this day.</string>
+    <string name="end_meal_order_message">Sorry. The Actual company doesn\'t accept order at this time.</string>
+
+    <string name="channel_id">meal</string>
+    <string name="channel_name">meal_channel</string>
+    <string name="channel_description">meal order expired</string>
+    <string name="validity_meal_order_title_notification">Your meal order</string>
+    <string name="validity_meal_order_body_notification">The validity of your preview order is no longer available and has been removed. You can now asking for new meals order.</string>
+    <string name="your_order">Finalize your order</string>
+    <string name="finalize_your_order_text">We will explain you how you can proceed to finalize your order</string>
+    <string name="explanation_text5">Company Contact:</string>
+    <string name="it_is_time">It\'s time to order</string>
+    <string name="it_is_time_text">Discover all meals of present day and order now</string>
+    <string name="it_is_time_suggestion">Your meals suggestion</string>
+    <string name="it_is_time_suggestion_text">Suggest us the meals you may like for tommorrow.</string>
+
+    <string name="rate_dialog_title">Rate this app</string>
+    <string name="rate_dialog_message">If you enjoy this app, would you mind taking a moment to rate it? It won\'t take more than a minute. Thanks for your support!</string>
+    <string name="rate_dialog_ok">Rate It Now</string>
+    <string name="rate_dialog_cancel">Remind Me Later</string>
+    <string name="rate_dialog_no">No, Thanks</string>
+    <string name="security_code_text">Enter your access code or subscribe on http://p-meals.herokuapp.com</string>
+    <string name="access_code">Access Code</string>
+    <string name="start_verification">Start vérification</string>
+    <string name="field_empty">Please, fill the field</string>
+    <string name="incorrect_access_code">No matching result found. Please, connect to your Meals account or subscribe on http://p-meals.herokuapp.com</string>
+    <string name="day_menu">See day\'s menus</string>
+    <string name="no_matching_result">No matching result</string>
+    <string name="catalog">Catalog</string>
+    <string name="suggestions">Suggestion</string>
+    <string name="promotion">Promotion</string>
+    <string name="suggestion_toolbar_title">Suggestions</string>
+    <string name="your_suggestion">Your meals suggestion</string>
+    <string name="plan_name_text">Sorry, this company doesn\'t subscribe to meal suggestion option</string>
+    <string name="not_time_suggestion">Sorry, you can\'t do meals suggestion at this moment. We will notify you at the real time.</string>
+    <string name="suggestion_text_indication">Please, hepl company to satisfy you by suggesting meals that you may like</string>
+    <string name="suggest_edit_text_empty">Please, suggest some meal before send it</string>
+    <string name="error_occured_suggestion">An error has occured. Please, try later</string>
+    <string name="suggestion_request_send_successfully">Your request has been sent successfully.</string>
+    <string name="catalog_toolbar_title">Catalog</string>
+    <string name="contact_company">Please, contact company to make your order.</string>
+    <string name="company_username">Company Name:</string>
+    <string name="home_toolbar_title">Home</string>
+    <string name="catalog_icon">f518</string>
+    <string name="bullhorn_icon">f0a1</string>
+    <string name="event_detail">Contact company for more details about this offer</string>
+    <string name="event_date_textstart">From</string>
+    <string name="event_date_textend">to</string>
+    <string name="promotion_toolbar_title">Promotions</string>
+    <string name="no_promotion_text">Sorry, this company doesn\'t subscribe to meal promotion option</string>
+    <string name="suggestion_not_possible">You can\'t do suggestion anymore this day</string>
+    <string name="subscription_end">Your subscription is end. Renew your subscription on http://p-meals.herokuapp.com to take advantage of Meals</string>
+    <string name="subscription_end_title">Subscription ended</string>
+    <string name="jour_de_prestation">Workin Day</string>
+    <string name="voir_le_catalogue">Catalog</string>
+    <string name="commander">Order meals</string>
+    <string name="internet_acces_code">Check your network connection and enter your access code.</string>
+    <string name="Catalogue">Company catalog</string>
+    <string name="company_catalog_not_defined">The selected company hasn\'t define his catalog yet.</string>
+    <string name="company_not_work">Sorry, this company doen\'t work today.</string>
+
 </resources>

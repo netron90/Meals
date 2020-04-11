@@ -1,6 +1,8 @@
 package com.personnalize_design.meals.ui.user_order;
 
+import android.app.IntentService;
 import android.content.Context;
+import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 
@@ -23,6 +25,7 @@ import android.widget.TextView;
 import com.personnalize_design.meals.R;
 import com.personnalize_design.meals.data.model.MainMealSelectedModel;
 import com.personnalize_design.meals.data.model.UserOrderModel;
+import com.personnalize_design.meals.services.CheckMealBillTimeService;
 import com.personnalize_design.meals.ui.base.BaseFragment;
 import com.personnalize_design.meals.ui.error.ErrorFragment;
 import com.personnalize_design.meals.ui.user_order.adapter.UserOrderAdapter;
@@ -69,6 +72,9 @@ public class UserOrderFragment extends BaseFragment implements UserOrderMvpView 
 
     @BindView(R.id.explanationUserOrder)
     public TextView explanationUserOrder;
+
+    @BindView(R.id.companyName)
+    public TextView companyName;
 
     UserOrderAdapter userOrderAdapter;
 
@@ -119,7 +125,7 @@ public class UserOrderFragment extends BaseFragment implements UserOrderMvpView 
         getComponent().inject(this);
         mPresenter.onAttachView(this);
         progressBar.setVisibility(View.VISIBLE);
-
+        Log.d("USER ORDER SETUP", "User Order Setup");
         mPresenter.getUserMealOrderFromDb();
 
         listBeans = new ArrayList<>();
@@ -169,6 +175,7 @@ public class UserOrderFragment extends BaseFragment implements UserOrderMvpView 
     @Override
     public void onUserOrderInfoSucces(UserOrderModel.UserOrder userOrder) {
         progressBar.setVisibility(View.GONE);
+        companyName.setText(userOrder.companyName);
         todayDate.setText(userOrder.todayDate);
         mPresenter.getMealOrderList(userOrder);
     }
@@ -181,12 +188,27 @@ public class UserOrderFragment extends BaseFragment implements UserOrderMvpView 
         }
         if(!mPresenter.getDataManager().isDeliveryStateEnable()){
             explanationUserOrder.setVisibility(View.VISIBLE);
-            explanationUserOrder.setText(getActivity().getString(R.string.explanation_text1) + userOrder.getCompanyName() + getActivity().getString(R.string.explanation_text2)
-                    + userOrder.getCompanyContact() +getActivity().getString(R.string.explanation_text3) + userOrder.getCompanyName() +getActivity().getString(R.string.explanation_text4) + userOrder.getCompanyLocalisation());
+            explanationUserOrder.setText(getContext().getString(R.string.explanation_text1) + " " + userOrder.getCompanyName() + " " +getContext().getString(R.string.explanation_text2) + " "
+                    + userOrder.getCompanyContact() +getActivity().getString(R.string.explanation_text3) +" "+ userOrder.getCompanyName() + " " +getActivity().getString(R.string.explanation_text4) + " " + userOrder.getCompanyLocalisation());
+
+            //TODO: START SERVICE TO DELETE BILL ORDER AFTER 1 DAY
+            Intent intent = new Intent(getContext(), CheckMealBillTimeService.class);
+            if(getActivity() != null){
+                getActivity().startService(intent);
+            }
         }else{
             explanationUserOrder.setVisibility(View.VISIBLE);
-            explanationUserOrder.setText(R.string.id_confirm_text);
+            explanationUserOrder.setText(getActivity().getString(R.string.id_confirm_text) + "\n " + getActivity().getString( R.string.explanation_text5) + " " + userOrder.getCompanyContact());
+
+            //TODO: START SERVICE TO DELETE BILL ORDER AFTER 1 DAY
+            Intent intent = new Intent(getContext(), CheckMealBillTimeService.class);
+            if(getContext() != null){
+                getActivity().startService(intent);
+            }
         }
+
+
+
     }
 
     /**

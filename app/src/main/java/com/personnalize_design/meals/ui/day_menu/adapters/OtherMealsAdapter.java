@@ -54,10 +54,10 @@ public class OtherMealsAdapter extends RecyclerView.Adapter<OtherMealsAdapter.Vi
     @Override
     public void onBindViewHolder(@NonNull OtherMealsAdapter.ViewHolder holder, int position) {
 
-        holder.otherMenuCompanyName.setText(otherDayMenuModelList.get(position).getCompanyName() + " - Menu");
+        holder.otherMenuCompanyName.setText(otherDayMenuModelList.get(position).getCompanyName());
         GlideApp.with(this.context)
-                .load(BASE_URL+otherDayMenuModelList.get(position).getMealImg())
-                .placeholder(R.drawable.logo)
+                .load(otherDayMenuModelList.get(position).getMealImg())
+                .placeholder(R.drawable.meals_logo_v2)
                 .centerCrop()
                 .into(holder.otherMealImg);
         holder.otherMealName.setText(otherDayMenuModelList.get(position).getMealName());
